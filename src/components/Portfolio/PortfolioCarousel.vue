@@ -7,9 +7,9 @@
                         <use href="#previous"></use>
                     </svg>
                 </a>
-                <div class="carousel-element"><img src="@/assets/me.jpg" alt=""></div>
-                <div class="carousel-element"><img src="@/assets/me.jpg" alt=""></div>
-                <div class="carousel-element"><img src="@/assets/me.jpg" alt=""></div>
+                <div class="carousel-element"><img src="@/assets/projects/tempestade-criativa.png" alt=""></div>
+                <div class="carousel-element"><img src="@/assets/projects/colecoes-fauna-do-brasil.png" alt=""></div>
+                <div class="carousel-element"><img src="@/assets/projects/show-gospel.png" alt=""></div>
                 <a class="next" href="#group-2">
                     <svg>
                         <use href="#next"></use>
@@ -23,9 +23,9 @@
                         <use href="#previous"></use>
                     </svg>
                 </a>
-                <div class="carousel-element"><img src="@/assets/me.jpg" alt=""></div>
-                <div class="carousel-element"><img src="@/assets/me.jpg" alt=""></div>
-                <div class="carousel-element"><img src="@/assets/me.jpg" alt=""></div>
+                <div class="carousel-element"><img src="@/assets/illustrations/cat-signature.png" alt=""></div>
+                <div class="carousel-element"><img src="@/assets/coming-soon.png" alt=""></div>
+                <div class="carousel-element"><img src="@/assets/coming-soon.png" alt=""></div>
                 <a class="next" href="#group-1">
                     <svg>
                         <use href="#next"></use>
