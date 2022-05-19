@@ -25,11 +25,11 @@ defineProps({
 }
 .title__tag{
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 100;
 }
 .title{
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     font-weight: 700;
 }
 </style>
