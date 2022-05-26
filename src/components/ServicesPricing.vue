@@ -10,15 +10,11 @@ import Title from './Title.vue'
                 <label class="services__form-group" v-for="service in serviceOptions" :key="service">
                     {{service.description}}
                     <span class="services__options__disclaimer">{{service.label}}</span>
-                    <input type="checkbox" :value="service.value" v-model.lazy="checkedServices" class="services__checkbox" />
+                    <input type="checkbox" :id="service.id" :value="service.value" v-model.lazy="checkedServices" class="services__checkbox" />
                     <span class="checkmark"></span>
                 </label>
                 <p class="fun-fact">**You can pick more than one!</p>
                 <p class="fun-fact">**The values are just my average price ;)</p>
-
-                <input type="checkbox" id="1" value="1" v-model.lazy="checkedServices2" class="services__checkbox" />
-                <input type="checkbox" id="2" value="2" v-model.lazy="checkedServices2" class="services__checkbox" />
-                <input type="checkbox" id="3" value="3" v-model.lazy="checkedServices2" class="services__checkbox" />
             </div>
             <div class="average-price">
                 <p>Average Price</p>
@@ -36,13 +32,13 @@ export default {
         return{
             checkedServices: [],
             serviceOptions: [
-                {value: 700, label:'Web Development', description:'Simple static page'},
-                {value: 1200, label:'Web Development', description:'Website until 5 pages'},
-                {value: 2000, label:'Web Development', description:'Website with more than 5 pages'},
-                {value: 100, label:'UI/UX', description:'Prototype single page'},
-                {value: 1500, label:'UI/UX', description:'Prototype a whole system'},
-                {value: 450, label:'value for create or rebuild', description:'Logo'},
-                {value: 200, label:'value for single illustration', description:'Illustration'},
+                {id: '1', value: 700, label:'Web Development', description:'Simple static page'},
+                {id: '2', value: 1200, label:'Web Development', description:'Website until 5 pages'},
+                {id: '3', value: 2000, label:'Web Development', description:'Website with more than 5 pages'},
+                {id: '4', value: 100, label:'UI/UX', description:'Prototype single page'},
+                {id: '5', value: 1500, label:'UI/UX', description:'Prototype a whole system'},
+                {id: '6', value: 450, label:'value for create or rebuild', description:'Logo'},
+                {id: '7', value: 200, label:'value for single illustration', description:'Illustration'},
             ]
         }
     }
