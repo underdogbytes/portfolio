@@ -4,22 +4,17 @@
         <div class="services__container">
             <div class="services-choice">
                 <p class="services__container__text">Pick the services you need to see the average price of the work:</p>
-
                 <div v-for="service in serviceOptions" :key="service">
                     <label class="services__form-group">
                         {{service.description}}
                         <span class="services__options__disclaimer">{{service.label}}</span>
-
                         <input type="checkbox" :id="service.id" :value="service.value" v-model.lazy="checkedServices" class="services__checkbox" />
-                        
                         <span class="checkmark"></span>
                     </label>
                 </div>
-
                 <p class="fun-fact">**You can pick more than one!</p>
                 <p class="fun-fact">**The values are just my average price ;)</p>
             </div>
-
             <div class="average-price">
                 <p>Average Price</p>
                 <div class="services__price">

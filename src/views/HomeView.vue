@@ -4,11 +4,13 @@ import Blog from '../components/Blog/Blog.vue'
 import Footer from '../components/Footer.vue'
 import Portfolio from '../components/Portfolio/Portfolio.vue';
 import Welcome from '../components/Welcome.vue';
+import ServicePrice from '../components/ServicePrice.vue';
 </script>
 
 <template>
     <Welcome />
     <Portfolio />
+    <ServicePrice />
     <Blog />
     <Footer />
 </template>
