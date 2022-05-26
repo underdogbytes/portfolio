@@ -10,6 +10,7 @@
 }
 html{
     scroll-padding-top: 15em;
+    scroll-behavior: smooth;
 }
 body{
     font-family: 'Montserrat', sans-serif;
