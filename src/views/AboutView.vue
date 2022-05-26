@@ -1,5 +1,5 @@
 <script setup>
-import ServicesPricing from '../components/ServicesPricing.vue';
+import ServicesPricing from '../components/ServicesPricing/ServicesPricing.vue';
 </script>
 <template>
   <div class="about">
