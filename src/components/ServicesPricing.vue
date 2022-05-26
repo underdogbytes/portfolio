@@ -9,7 +9,7 @@ import Title from './Title.vue'
                 <p class="services__container__text">Pick the services you need to see the average price of the work:</p>
                 <label class="services__form-group" v-for="service in serviceOptions" :key="service">
                     {{service.description}}
-                        <span class="services__options__disclaimer">{{service.label}}</span>
+                    <span class="services__options__disclaimer">{{service.label}}</span>
                     <input type="checkbox" :value="service.value" v-model="servicesChecked" class="services__checkbox" />
                     <span class="checkmark"></span>
                 </label>
@@ -39,15 +39,14 @@ export default {
                 {value: 450, label:'value for create or rebuild', description:'Logo'},
                 {value: 200, label:'value for single illustration', description:'Illustration'},
             ],
-            servicesChecked: [],
-            totalPrice: 0
+            servicesChecked: []
         }
     },
-    watch: {
-        servicesChecked: function (val) {
-            let temp = 0
-            val.forEach(element => { temp += element });
-            this.totalPrice = temp
+    computed: {
+        totalPrice() {
+            let price = 0
+            this.servicesChecked.forEach(element => { price += element });
+            return price
         }
     }
 }
