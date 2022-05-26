@@ -32,23 +32,16 @@ export default {
         return{
             checkedServices: [],
             serviceOptions: [
-                {id: '1', value: 700, label:'Web Development', description:'Simple static page'},
-                {id: '2', value: 1200, label:'Web Development', description:'Website until 5 pages'},
-                {id: '3', value: 2000, label:'Web Development', description:'Website with more than 5 pages'},
-                {id: '4', value: 100, label:'UI/UX', description:'Prototype single page'},
-                {id: '5', value: 1500, label:'UI/UX', description:'Prototype a whole system'},
-                {id: '6', value: 450, label:'value for create or rebuild', description:'Logo'},
-                {id: '7', value: 200, label:'value for single illustration', description:'Illustration'},
+                {id: 'services1', value: 700, label:'Web Development', description:'Simple static page'},
+                {id: 'services2', value: 1200, label:'Web Development', description:'Website until 5 pages'},
+                {id: 'services3', value: 2000, label:'Web Development', description:'Website with more than 5 pages'},
+                {id: 'services4', value: 100, label:'UI/UX', description:'Prototype single page'},
+                {id: 'services5', value: 1500, label:'UI/UX', description:'Prototype a whole system'},
+                {id: 'services6', value: 450, label:'value for create or rebuild', description:'Logo'},
+                {id: 'services7', value: 200, label:'value for single illustration', description:'Illustration'},
             ]
         }
     }
-    // computed: {
-    //     totalPrice() {
-    //         let price = 0
-    //         this.checkedServices.forEach(element => { price += element });
-    //         return price
-    //     }
-    // }
 }
 </script>
 <style scoped>
