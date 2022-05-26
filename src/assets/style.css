@@ -9,7 +9,7 @@
     box-sizing: border-box;
 }
 html{
-    scroll-padding-top: 15em;
+    scroll-padding-top: 12em;
     scroll-behavior: smooth;
 }
 body{
@@ -31,4 +31,10 @@ section{
     font-size: 0.8rem;
     font-weight: 200;
     color: #a1a1a1;
+}
+
+@media screen and (max-width: 600px){
+    html{
+        scroll-padding-top: 5em;
+    }
 }
