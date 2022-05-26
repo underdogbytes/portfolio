@@ -23,17 +23,6 @@ import Title from './Title.vue'
                     <span>{{ totalPrice }}</span>
                 </div>
             </div>
-
-            <div>Checked names: {{ checkedNames }}</div>
-
-            <input type="checkbox" id="jack" value="Jack" v-model.lazy="checkedNames">
-            <label for="jack">Jack</label>
-
-            <input type="checkbox" id="john" value="John" v-model.lazy="checkedNames">
-            <label for="john">John</label>
-
-            <input type="checkbox" id="mike" value="Mike" v-model.lazy="checkedNames">
-            <label for="mike">Mike</label>
         </div>
     </section>
 </template>
@@ -50,8 +39,7 @@ export default {
                 {value: 450, label:'value for create or rebuild', description:'Logo'},
                 {value: 200, label:'value for single illustration', description:'Illustration'},
             ],
-            checkedServices: [],
-            checkedNames: []
+            checkedServices: []
         }
     },
     computed: {

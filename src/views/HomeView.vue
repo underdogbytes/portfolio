@@ -10,7 +10,7 @@ import Welcome from '../components/Welcome.vue';
 <template>
     <Welcome />
     <Portfolio />
+    <!-- <ServicesPricing /> -->
     <Blog />
-    <ServicesPricing />
     <Footer />
 </template>
