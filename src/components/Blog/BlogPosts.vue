@@ -49,7 +49,7 @@
     margin: auto;
     max-width: 300px;
     height: 500px;
-    box-shadow: 2px 2px 4px #424242;
+    box-shadow: 5px 5px 8px #95959582;
 }
 .blog__card__img{
     height: 200px;
