@@ -22,7 +22,7 @@ header{
     background-image: url(@/assets/me.jpg);
     background-size: cover;
     background-position: center;
-    filter: blur(0.5em) grayscale(50%);
+    filter: blur(0.6em) grayscale(50%);
 }
 .header__text{
     position: absolute;
@@ -43,16 +43,14 @@ header{
 .header__title{
     font-size: 12rem;
     font-weight: bold;
-    color: #212121;
+    color: #000000;
 }
 .header__subtitle{
     font-size: 3.5rem;
     font-weight: bold;
     color: rgb(255, 255, 255);
 }
-.header__img{
-    display: none;
-}
+.header__img{ display: none; }
 
 @media screen and (min-width: 1000px){
     .header__img{
