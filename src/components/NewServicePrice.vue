@@ -12,7 +12,7 @@
                         {{service.description}}
                         <span class="services__options__disclaimer">{{service.label}}</span>
 
-                        <input type="checkbox" :id="service.id" :value="service.value" class="services__checkbox" />
+                        <input type="checkbox" :id="service.id" :value="service.value" v-model.lazy="checkedServices" class="services__checkbox" />
                         
                         <span class="checkmark"></span>
                     </label>
