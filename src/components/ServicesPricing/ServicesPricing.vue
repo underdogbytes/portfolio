@@ -19,13 +19,13 @@ import Title from '../Title.vue'
             </div>
 
             <div>
-                <input type="checkbox" id="jack" value="Jack" v-model.lazy="checkedNames">
+                <input type="checkbox" id="jack" value="1" v-model.lazy="checkedNames">
                 <label for="jack">Jack</label>
 
-                <input type="checkbox" id="john" value="John" v-model.lazy="checkedNames">
+                <input type="checkbox" id="john" value="2" v-model.lazy="checkedNames">
                 <label for="john">John</label>
 
-                <input type="checkbox" id="mike" value="Mike" v-model.lazy="checkedNames">
+                <input type="checkbox" id="mike" value="3" v-model.lazy="checkedNames">
                 <label for="mike">Mike</label>
             </div>
 

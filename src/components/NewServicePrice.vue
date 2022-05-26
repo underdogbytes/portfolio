@@ -5,26 +5,20 @@
             <div class="services-choice">
                 <p class="services__container__text">Pick the services you need to see the average price of the work:</p>
 
+                <div v-for="service in serviceOptions" :key="service">
+                    <label>Trying to debug this</label>
+                    <input type="checkbox" :id="service.id" :value="service.value"  v-model.lazy="checkedServices">
+                </div>
+
                 <p class="fun-fact">**You can pick more than one!</p>
                 <p class="fun-fact">**The values are just my average price ;)</p>
-            </div>
-
-            <div>
-                <input type="checkbox" id="jack" value="Jack" v-model.lazy="checkedNames">
-                <label for="jack">Jack</label>
-
-                <input type="checkbox" id="john" value="John" v-model.lazy="checkedNames">
-                <label for="john">John</label>
-
-                <input type="checkbox" id="mike" value="Mike" v-model.lazy="checkedNames">
-                <label for="mike">Mike</label>
             </div>
 
             <div class="average-price">
                 <p>Average Price</p>
                 <div class="services__price">
                     <span>R$</span>
-                    <span>{{ checkedNames }}</span>
+                    <span>{{ checkedServices }}</span>
                 </div>
             </div>
         </div>
@@ -37,7 +31,16 @@ export default {
     components: { Title },
     data(){
         return{
-            checkedNames: []
+            checkedServices: [],
+            serviceOptions: [
+                {id: 'servicesOne', value: 700, label:'Web Development', description:'Simple static page'},
+                {id: 'servicesTwo', value: 1200, label:'Web Development', description:'Website until 5 pages'},
+                {id: 'servicesThree', value: 2000, label:'Web Development', description:'Website with more than 5 pages'},
+                {id: 'servicesFour', value: 100, label:'UI/UX', description:'Prototype single page'},
+                {id: 'servicesFive', value: 1500, label:'UI/UX', description:'Prototype a whole system'},
+                {id: 'servicesSix', value: 450, label:'value for create or rebuild', description:'Logo'},
+                {id: 'servicesSeven', value: 200, label:'value for single illustration', description:'Illustration'},
+            ]
         }
     }
 }
