@@ -20,7 +20,7 @@ defineProps({
 
 <style scoped>
 .title__container{
-    margin: 3rem 0;
+    margin: 10em 0 5em 0;
     text-align: center;
 }
 .title__tag{
