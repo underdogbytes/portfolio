@@ -6,8 +6,16 @@
                 <p class="services__container__text">Pick the services you need to see the average price of the work:</p>
 
                 <div v-for="service in serviceOptions" :key="service">
-                    <label>Trying to debug this</label>
-                    <input type="checkbox" :id="service.id" :value="service.value"  v-model.lazy="checkedServices">
+                    <!-- <input type="checkbox" :id="service.id" :value="service.value"  v-model.lazy="checkedServices">
+                    <label>Trying to debug this</label> -->
+                    <label class="services__form-group">
+                        {{service.description}}
+                        <span class="services__options__disclaimer">{{service.label}}</span>
+
+                        <input type="checkbox" :id="service.id" :value="service.value" class="services__checkbox" />
+                        
+                        <span class="checkmark"></span>
+                    </label>
                 </div>
 
                 <p class="fun-fact">**You can pick more than one!</p>
@@ -18,7 +26,7 @@
                 <p>Average Price</p>
                 <div class="services__price">
                     <span>R$</span>
-                    <span>{{ checkedServices }}</span>
+                    <span>{{ totalPrice }}</span>
                 </div>
             </div>
         </div>
