@@ -6,7 +6,7 @@
                     <svg><use href="#previous"></use></svg>
                 </a>
                 <div class="carousel-element" v-for="carouselElement in carousel.carouselElement" :key="carouselElement">
-                    <img :src="require(`@/assets/${carouselElement.img}`)" alt="carouselElement.alt">
+                    <img :src="`/assets/${carouselElement.img}`" alt="carouselElement.alt">
                 </div>
                 <a class="next" :href="carousel.next">
                     <svg><use href="#next"></use></svg>
