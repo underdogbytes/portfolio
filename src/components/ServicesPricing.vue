@@ -10,12 +10,24 @@ import Title from './Title.vue'
                 <label class="services__form-group" v-for="service in serviceOptions" :key="service">
                     {{service.description}}
                     <span class="services__options__disclaimer">{{service.label}}</span>
-                    <input type="checkbox" :id="service.id" :value="service.value" v-model.lazy="checkedServices" class="services__checkbox" />
+                    <input type="checkbox" :id="service.id" :value="service.value" class="services__checkbox" />
                     <span class="checkmark"></span>
                 </label>
                 <p class="fun-fact">**You can pick more than one!</p>
                 <p class="fun-fact">**The values are just my average price ;)</p>
             </div>
+
+    <div>
+        <input type="checkbox" id="jack" value="Jack" v-model.lazy="checkedServices">
+        <label for="jack">Jack</label>
+
+        <input type="checkbox" id="john" value="John" v-model.lazy="checkedServices">
+        <label for="john">John</label>
+
+        <input type="checkbox" id="mike" value="Mike" v-model.lazy="checkedServices">
+        <label for="mike">Mike</label>
+    </div>
+
             <div class="average-price">
                 <p>Average Price</p>
                 <div class="services__price">
