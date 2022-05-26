@@ -35,7 +35,7 @@ export default {
             checkedServices: [],
             serviceOptions: [
                 {id: 'servicesOne', value: 700, label:'Web Development', description:'Simple static page'},
-                {id: 'servicesTwo', value: 1200, label:'Web Development', description:'Website until 5 pages'},
+                {id: 'servicesTwo', value: 1200, label:'Web Development', description:'Website up to 5 pages'},
                 {id: 'servicesThree', value: 2000, label:'Web Development', description:'Website with more than 5 pages'},
                 {id: 'servicesFour', value: 100, label:'UI/UX', description:'Prototype single page'},
                 {id: 'servicesFive', value: 1500, label:'UI/UX', description:'Prototype a whole system'},
