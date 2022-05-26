@@ -10,7 +10,7 @@ import Title from './Title.vue'
                 <label class="services__form-group" v-for="service in serviceOptions" :key="service">
                     {{service.description}}
                     <span class="services__options__disclaimer">{{service.label}}</span>
-                    <input type="checkbox" :value="service.value" v-model="checkedServices" class="services__checkbox" />
+                    <input type="checkbox" :value="service.value" v-model.lazy="checkedServices" class="services__checkbox" />
                     <span class="checkmark"></span>
                 </label>
                 <p class="fun-fact">**You can pick more than one!</p>
@@ -30,6 +30,7 @@ import Title from './Title.vue'
 export default {
     data(){
         return{
+            checkedServices: [],
             serviceOptions: [
                 {value: 700, label:'Web Development', description:'Simple static page'},
                 {value: 1200, label:'Web Development', description:'Website until 5 pages'},
@@ -38,8 +39,7 @@ export default {
                 {value: 1500, label:'UI/UX', description:'Prototype a whole system'},
                 {value: 450, label:'value for create or rebuild', description:'Logo'},
                 {value: 200, label:'value for single illustration', description:'Illustration'},
-            ],
-            checkedServices: []
+            ]
         }
     }
     // computed: {
