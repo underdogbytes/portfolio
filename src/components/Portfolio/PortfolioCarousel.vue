@@ -6,7 +6,7 @@
                     <svg><use href="#previous"></use></svg>
                 </a>
                 <div class="carousel-element" v-for="carouselElement in carousel.carouselElement" :key="carouselElement">
-                    <img :src="carouselElement.img" alt="carouselElement.alt">
+                    <img :src="require(`@/assets/${carouselElement.img}`)" alt="carouselElement.alt">
                 </div>
                 <a class="next" :href="carousel.next">
                     <svg><use href="#next"></use></svg>
@@ -40,8 +40,8 @@ export default {
                     previous: '#group-3',
                     next: '#group-2',
                     carouselElement: [
-                        {img: 'src/assets/projects/tempestade-criativa.png', alt: 'Tempestade Criativa'},
-                        {img: 'src/assets/projects/colecoes-fauna-do-brasil.png', alt: 'Coleções Fauna do Brasil'},
+                        {img: 'projects/tempestade-criativa.png', alt: 'Tempestade Criativa'},
+                        {img: 'projects/colecoes-fauna-do-brasil.png', alt: 'Coleções Fauna do Brasil'},
                     ]
                 },
                 {
@@ -49,8 +49,8 @@ export default {
                     previous: '#group-1',
                     next: '#group-3',
                     carouselElement: [
-                        {img: 'src/assets/illustrations/cat-signature.png', alt: 'Illustration: Cat Signature'},
-                        {img: 'src/assets/projects/show-gospel.png', alt: 'Show Gospel'},
+                        {img: 'illustrations/cat-signature.png', alt: 'Illustration: Cat Signature'},
+                        {img: 'projects/show-gospel.png', alt: 'Show Gospel'},
                     ]
                 },
                 {
@@ -58,8 +58,8 @@ export default {
                     previous: '#group-2',
                     next: '#group-1',
                     carouselElement: [
-                        {img: 'src/assets/coming-soon.png', alt: 'Coming Soon'},
-                        {img: 'src/assets/coming-soon.png', alt: 'Coming Soon'},
+                        {img: 'coming-soon.png', alt: 'Coming Soon'},
+                        {img: 'coming-soon.png', alt: 'Coming Soon'},
                     ]
                 }
             ]
