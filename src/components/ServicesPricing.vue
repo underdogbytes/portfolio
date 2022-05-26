@@ -10,7 +10,7 @@ import Title from './Title.vue'
                 <label class="services__form-group" v-for="service in serviceOptions" :key="service">
                     {{service.description}}
                     <span class="services__options__disclaimer">{{service.label}}</span>
-                    <input type="checkbox" :value="service.value" v-model.lazy="checkedServices" class="services__checkbox" />
+                    <input type="checkbox" :value="service.value" v-model="checkedServices" class="services__checkbox" />
                     <span class="checkmark"></span>
                 </label>
                 <p class="fun-fact">**You can pick more than one!</p>
@@ -20,7 +20,7 @@ import Title from './Title.vue'
                 <p>Average Price</p>
                 <div class="services__price">
                     <span>R$</span>
-                    <span>{{ totalPrice }}</span>
+                    <span>{{ checkedServices }}</span>
                 </div>
             </div>
         </div>
@@ -41,14 +41,14 @@ export default {
             ],
             checkedServices: []
         }
-    },
-    computed: {
-        totalPrice() {
-            let price = 0
-            this.checkedServices.forEach(element => { price += element });
-            return price
-        }
     }
+    // computed: {
+    //     totalPrice() {
+    //         let price = 0
+    //         this.checkedServices.forEach(element => { price += element });
+    //         return price
+    //     }
+    // }
 }
 </script>
 <style scoped>

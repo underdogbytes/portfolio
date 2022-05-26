@@ -1,5 +1,5 @@
 <script setup>
-import Test from '../components/Test.vue';
+import ServicesPricing from '../components/ServicesPricing.vue';
 </script>
 <template>
   <div class="about">
@@ -9,7 +9,7 @@ import Test from '../components/Test.vue';
     <p>Proin lobortis, orci et bibendum rhoncus, dolor risus bibendum eros, sed vehicula nisl felis et lacus. Aliquam mauris lectus, sagittis nec sapien in, rhoncus pharetra elit. Phasellus est arcu, imperdiet vitae pellentesque vitae, varius in velit. Suspendisse consequat augue sed dignissim suscipit. Ut ut tincidunt ipsum. Quisque pulvinar felis eu nibh facilisis mollis. Nullam semper, turpis at placerat efficitur, quam risus pulvinar orci, et congue lacus arcu at turpis. Suspendisse quam ipsum, dapibus nec sodales at, varius eu sapien. In tincidunt pretium commodo.</p>
     <p>Suspendisse potenti. Praesent ac tincidunt neque, ac maximus orci. Pellentesque eu felis eros. Aenean porta maximus erat dictum vestibulum. Nulla nibh massa, suscipit aliquet blandit at, interdum ut sem. Vivamus semper nec felis vitae vehicula. Cras lacinia purus sed viverra fringilla. Cras imperdiet vulputate molestie. Curabitur pretium scelerisque urna, eu dignissim mauris vulputate eget. Pellentesque congue dui turpis, ut mollis nisl malesuada et. Nullam sagittis enim ullamcorper luctus ullamcorper. Praesent rhoncus nisi eget commodo elementum. Pellentesque vel feugiat ipsum, in laoreet nibh. Cras et metus velit. Ut accumsan ipsum vulputate ante rhoncus bibendum.</p>
     
-    <Test />
+    <ServicesPricing />
   </div>
 </template>
 
