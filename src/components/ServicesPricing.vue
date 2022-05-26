@@ -15,6 +15,10 @@ import Title from './Title.vue'
                 </label>
                 <p class="fun-fact">**You can pick more than one!</p>
                 <p class="fun-fact">**The values are just my average price ;)</p>
+
+                <input type="checkbox" value="1" v-model.lazy="checkedServices2" class="services__checkbox" />
+                <input type="checkbox" value="2" v-model.lazy="checkedServices2" class="services__checkbox" />
+                <input type="checkbox" value="3" v-model.lazy="checkedServices2" class="services__checkbox" />
             </div>
             <div class="average-price">
                 <p>Average Price</p>
@@ -31,6 +35,7 @@ export default {
     data(){
         return{
             checkedServices: [],
+            checkedServices2: [],
             serviceOptions: [
                 {value: 700, label:'Web Development', description:'Simple static page'},
                 {value: 1200, label:'Web Development', description:'Website until 5 pages'},
