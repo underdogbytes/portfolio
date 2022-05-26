@@ -221,12 +221,6 @@ export default {
   backface-visibility: hidden;
 }
 
-/* Style the front side (fallback if image is missing) */
-.flip-card-front {
-  background-color: #bbb;
-  color: black;
-}
-
 /* Style the back side */
 .flip-card-back{
     padding: 2em;

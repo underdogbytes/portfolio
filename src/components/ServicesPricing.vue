@@ -55,7 +55,7 @@ export default {
 <style scoped>
 .services__container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 .services-choice{ margin: auto; }
 .services__form-group{

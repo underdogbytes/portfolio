@@ -1,8 +1,10 @@
 <template>
     <header>
         <div class="header__text">
-            <p class="header__title">btrz</p>
-            <p class="header__subtitle">designer & developer</p>
+            <div>
+                <p class="header__title">btrz</p>
+                <p class="header__subtitle">designer & developer</p>
+            </div>
         </div>
         <img class="header__img" src="@/assets/welcome-img.png" alt="">
     </header>
@@ -25,10 +27,12 @@ header{
     filter: blur(0.6em) grayscale(50%);
 }
 .header__text{
-    position: absolute;
+    position: sticky;
+    top: 10%;
     left: 30%;
-    top: 25%;
-    width: 400px;
+    margin: 3em;
+    padding: 0 0 3em 0;
+    max-width: 400px;
     opacity: 0.9;
     text-shadow:
         0 0 0.125em hsl(0 0% 100% / 0.3),
@@ -41,18 +45,26 @@ header{
         0 0 0.45em rgb(255, 36, 178);
 }
 .header__title{
-    font-size: 12rem;
+    font-size: 8rem;
     font-weight: bold;
     color: #000000;
 }
 .header__subtitle{
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: bold;
     color: rgb(255, 255, 255);
 }
 .header__img{ display: none; }
 
 @media screen and (min-width: 1000px){
+    .header__text{
+        position: absolute;
+        left: 30%;
+        top: 25%;
+        max-width: 400px;
+    }
+    .header__title{ font-size: 12rem; }
+    .header__subtitle{ font-size: 3.5rem; }
     .header__img{
         display: block;
         position: absolute;
