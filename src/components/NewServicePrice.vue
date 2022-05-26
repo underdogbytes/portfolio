@@ -26,7 +26,7 @@
                 <p>Average Price</p>
                 <div class="services__price">
                     <span>R$</span>
-                    <span>{{ totalPrice }}</span>
+                    <span>{{ checkedServices }}</span>
                 </div>
             </div>
         </div>
