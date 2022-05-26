@@ -6,8 +6,6 @@
                 <p class="services__container__text">Pick the services you need to see the average price of the work:</p>
 
                 <div v-for="service in serviceOptions" :key="service">
-                    <!-- <input type="checkbox" :id="service.id" :value="service.value"  v-model.lazy="checkedServices">
-                    <label>Trying to debug this</label> -->
                     <label class="services__form-group">
                         {{service.description}}
                         <span class="services__options__disclaimer">{{service.label}}</span>
@@ -26,7 +24,7 @@
                 <p>Average Price</p>
                 <div class="services__price">
                     <span>R$</span>
-                    <span>{{ checkedServices }}</span>
+                    <span>{{ totalPrice }}</span>
                 </div>
             </div>
         </div>
@@ -48,7 +46,25 @@ export default {
                 {id: 'servicesFive', value: 1500, label:'UI/UX', description:'Prototype a whole system'},
                 {id: 'servicesSix', value: 450, label:'value for create or rebuild', description:'Logo'},
                 {id: 'servicesSeven', value: 200, label:'value for single illustration', description:'Illustration'},
-            ]
+            ],
+            totalPrice: 0
+        }
+    },
+    watch: {
+        checkedServices: {
+            handler(newQuestion) {
+                // this will be run immediately on component creation.
+                this.calculatePrice()
+            },
+            // force eager callback execution
+            immediate: true
+        }
+    },
+    methods: {
+        calculatePrice(){
+            let temp = 0
+            this.checkedServices.forEach(element => { temp += element });
+            return this.totalPrice = temp
         }
     }
 }
