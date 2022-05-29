@@ -34,12 +34,11 @@ export default {
         return{
             checkedServices: [],
             serviceOptions: [
-                {id: 'servicesOne', value: 700, label:'Web Development', description:'Simple static page'},
-                {id: 'servicesTwo', value: 1200, label:'Web Development', description:'Website up to 5 pages'},
-                {id: 'servicesThree', value: 2000, label:'Web Development', description:'Website with more than 5 pages'},
-                {id: 'servicesFour', value: 100, label:'UI/UX', description:'Prototype single page'},
-                {id: 'servicesFive', value: 1500, label:'UI/UX', description:'Prototype a whole system'},
-                {id: 'servicesSix', value: 450, label:'value for create or rebuild', description:'Logo'},
+                {id: 'servicesOne', value: 700, label:'a simple static page', description:'Landing page'},
+                {id: 'servicesThree', value: 1500, label:'value for a website up to 5 pages', description:'Website'},
+                {id: 'servicesFour', value: 500, label:'value for page', description:'Prototype landing page or website'},
+                {id: 'servicesFive', value: 2000, label:'UI/UX', description:'Prototype a whole system'},
+                {id: 'servicesSix', value: 450, label:'value for create or rebuild a logo', description:'Logo'},
                 {id: 'servicesSeven', value: 200, label:'value for single illustration', description:'Illustration'},
             ],
             totalPrice: 0
