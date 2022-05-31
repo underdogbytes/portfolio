@@ -1,29 +1,31 @@
 <template>
-    <section>
-        <Title tag="Services & pricing" title="How can I help u?" />
-        <div class="services__container">
-            <div class="services-choice">
-                <p class="services__container__text">Pick the services you need to see the average price of the work:</p>
-                <div v-for="service in serviceOptions" :key="service">
-                    <label class="services__form-group">
-                        {{service.description}}
-                        <span class="services__options__disclaimer">{{service.label}}</span>
-                        <input type="checkbox" :id="service.id" :value="service.value" v-model.lazy="checkedServices" class="services__checkbox" />
-                        <span class="checkmark"></span>
-                    </label>
+    <div class="services__section">
+        <section>
+            <Title tag="Services & pricing" title="How can I help u?" />
+            <div class="services__container">
+                <div class="services-choice">
+                    <p class="services__container__text">Pick the services you need to see the average price of the work:</p>
+                    <div v-for="service in serviceOptions" :key="service">
+                        <label class="services__form-group">
+                            {{service.description}}
+                            <span class="services__options__disclaimer">{{service.label}}</span>
+                            <input type="checkbox" :id="service.id" :value="service.value" v-model.lazy="checkedServices" class="services__checkbox" />
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+                    <p class="fun-fact">**You can pick more than one!</p>
+                    <p class="fun-fact">**The values are just my average price ;)</p>
                 </div>
-                <p class="fun-fact">**You can pick more than one!</p>
-                <p class="fun-fact">**The values are just my average price ;)</p>
-            </div>
-            <div class="average-price">
-                <p>Average Price</p>
-                <div class="services__price">
-                    <span>R$</span>
-                    <span>{{ totalPrice }}</span>
+                <div class="average-price">
+                    <p>Average Price</p>
+                    <div class="services__price">
+                        <span>R$</span>
+                        <span>{{ totalPrice }}</span>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
 </template>
 <script>
 import Title from './Title.vue'
@@ -64,6 +66,10 @@ export default {
 }
 </script>
 <style scoped>
+.services__section{
+    padding: 3em 0;
+    background: whitesmoke;
+}
 .services__container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
