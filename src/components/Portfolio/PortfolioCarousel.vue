@@ -14,7 +14,7 @@
                             <div class="flip-card-back">
                             <h1>{{ carouselElement.title }}</h1>
                             <p>{{ carouselElement.description }}</p>
-                            <p>{{ carouselElement.link }}</p>
+                            <!-- <router-link :to="`/${carouselElement.link}`">Go to the project page</router-link> -->
                             </div>
                         </div>
                     </div>
@@ -54,14 +54,14 @@ export default {
                         {
                             title: 'Development',
                             description: 'The awesome designer Ito created the layout and I developed this website using HTML/CSS/JS',
-                            link: '',
+                            link: 'tempestade-criativa',
                             img: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSF0tGZ8jEAGAFbY5uYkKFOg81A_7czLioBbwhfsQtjMx6njdtad_iOKCA2IHOIIQr04kNU5rBPYQCTisjX3zqgWIqyee6h9nJMEbfBc0xeRb-mkCXxIl6e5EqMpIFdzb6vJRSxCBl5g11vhQ4VG29sYnp_dN3_ClgaAkRyOBIKEVhVPSV9o0QYkz4ig/s1080/tempestade-criativa.png',
                             alt: 'Tempestade Criativa'
                         },
                         {
                             title: 'Development',
                             description: 'The designer Bruno created the layout and I implemented this e-commerce using OpenCart. I also created this theme from zero :)',
-                            link: '',
+                            link: 'colecoes-fauna-do-brasil',
                             img: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKcvHF2xNuWb6NR1_mt2NUORGU6tg6vYmC0HlDSY4DiOUJZPVXrhmO1etB4IYVmMb1hXAHdTLyQn-fZt-sqm49EeaFy5nDrRs-oDp1ZjXYX38IxsUSzWSCx3IZ7VQmkcS5KaYv7JB-2tAFIAVKwGaHZdV03mDSLlcrbvD3-b6WNSZ2diCIFqWgx75z_Q/s1080/colecoes-fauna-do-brasil.png',
                             alt: 'Coleções Fauna do Brasil'
                         },
@@ -75,14 +75,14 @@ export default {
                         {
                             title: 'Cat Signature',
                             description: 'This is an illustration made with Photoshop using a Wacom',
-                            link: '',
+                            link: 'cat-signature',
                             img: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkpdCgY0x06bxq-j5ydCSUSEAF8LnMWxWXEfbn22zke6xItdz0a3cg8cQYWiEqB5xLk2VwGiFdKJvrJMwBgk8XafV54cvE_VkTE5AI6t9wCvLGRxuSwr3HYPRcqvctQI9traJFBK8qaZuPcTreyGBKtUg3RmPGzovxmHGH3fYvcbCNxzN2vDvJsV4KKA/s1080/cat-signature.png',
                             alt: 'Illustration: Cat Signature'
                         },
                         {
                             title: 'Show Gospel',
                             description: 'The design was from agency Publysh and I developed the website using PHP and Laravel',
-                            link: '',
+                            link: 'show-gospel',
                             img: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9rweV32qTGxJLpOCwL_gnRsieRlouPz6uPV6cDqwDKZZKVihtG5yd1Sg7dO8lMFBAWW4WY-OnOcdZvE12pZXGI0GYy_ehb6LWA0V0_7Gqd6uyXjQ7y2QYIkVn7CUshWyzQGngYm1Y8_1DbgimwsaN3uJNr8eMGW2srTaAktx-O8P_WfQ5VrKHzdgjkA/s1080/show-gospel.png',
                             alt: 'Show Gospel'
                         },
@@ -96,14 +96,14 @@ export default {
                         {
                             title: 'Coming soon!',
                             description: 'Coming soon art made with Canva',
-                            link: '',
+                            link: 'coming-soon',
                             img: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEht93C8qg3uUSR0LH_oFXQ0fzg3zOW35xURb41Sxi6CrY23ylMn_bz4kfa1S52SYOpn7cxyeZTxmYEW_kZG1EwwRLVY12s9SDRoEpgC1WZPs_QYWegoown8lPdJwPxL71HZZRA9uHxsITofY6YWzfD5CM-_b9Oea3BFgkrl_H450gLzHSnfhFDFHG-sPQ/s1080/coming-soon.png',
                             alt: 'Coming Soon'
                         },
                         {
                             title: 'Coming soon!',
                             description: 'Coming soon art made with Canva',
-                            link: '',
+                            link: 'coming-soon',
                             img: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEht93C8qg3uUSR0LH_oFXQ0fzg3zOW35xURb41Sxi6CrY23ylMn_bz4kfa1S52SYOpn7cxyeZTxmYEW_kZG1EwwRLVY12s9SDRoEpgC1WZPs_QYWegoown8lPdJwPxL71HZZRA9uHxsITofY6YWzfD5CM-_b9Oea3BFgkrl_H450gLzHSnfhFDFHG-sPQ/s1080/coming-soon.png',
                             alt: 'Coming Soon'
                         },
