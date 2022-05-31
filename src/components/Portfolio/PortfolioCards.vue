@@ -36,7 +36,7 @@ export default {
                     front: {
                         name: 'Tempestade Criativa',
                         description: 'Website designed by Ito and developed by me, using HTML/CSS & JS',
-                        imgSrc: 'src/assets/projects/tempestade-criativa.png',
+                        imgSrc: '@/assets/projects/tempestade-criativa.png',
                         imgAlt: 'Website Tempestade Criativa'
                     },
                     back: {
@@ -52,7 +52,7 @@ export default {
                     front: {
                         name: 'Coleções Fauna do Brasil',
                         description: 'E-commerce designed by Bruno Mezzomo and developed by me using OpenCart (also created the template for it)',
-                        imgSrc: 'src/assets/projects/colecoes-fauna-do-brasil.png',
+                        imgSrc: '@/assets/projects/colecoes-fauna-do-brasil.png',
                         imgAlt: 'E-commerce for Coleções Fauna do Brasil'
                     },
                     back: {
@@ -68,7 +68,7 @@ export default {
                     front: {
                         name: 'Show Gospel',
                         description: 'Website designed by Publysh and developed by me, using Laravel and PHP',
-                        imgSrc: 'src/assets/projects/show-gospel.png',
+                        imgSrc: '@/assets/projects/show-gospel.png',
                         imgAlt: 'Website and blog for Show Gospel magazine'
                     },
                     back: {
