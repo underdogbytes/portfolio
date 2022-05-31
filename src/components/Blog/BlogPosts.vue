@@ -1,6 +1,6 @@
 <template>
     <div class="blog__container">
-        <div class="blog__card" v-for="post in posts" :key="post">
+        <div class="blog__card" v-for="post in posts" :key="post" data-aos="fade-up">
             <img class="blog__card__img" :src="post.img" alt="">
             <div class="blog__card__text">
                 <p class="blog__card__title">{{post.title}}</p>

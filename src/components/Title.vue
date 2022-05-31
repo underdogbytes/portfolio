@@ -13,8 +13,8 @@ defineProps({
 
 <template>
     <div class="title__container">
-        <p class="title__tag">{{tag}}</p>
-        <p class="title">{{title}}</p>
+        <p class="title__tag" data-aos="flip-up" data-aos-anchor-placement="center-center">{{tag}}</p>
+        <p class="title" data-aos="flip-up" data-aos-anchor-placement="center-center">{{title}}</p>
     </div>
 </template>
 

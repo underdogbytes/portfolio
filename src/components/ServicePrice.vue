@@ -3,7 +3,7 @@
         <section>
             <Title tag="Services & pricing" title="How can I help u?" />
             <div class="services__container">
-                <div class="services-choice">
+                <div class="services-choice" data-aos="zoom-in-right" data-aos-anchor-placement="center-center">
                     <p class="services__container__text">Pick the services you need to see the average price of the work:</p>
                     <div v-for="service in serviceOptions" :key="service">
                         <label class="services__form-group">
@@ -16,7 +16,7 @@
                     <p class="fun-fact">**You can pick more than one!</p>
                     <p class="fun-fact">**The values are just my average price ;)</p>
                 </div>
-                <div class="average-price">
+                <div class="average-price" data-aos="zoom-in-left" data-aos-anchor-placement="center-center">
                     <p>Average Price</p>
                     <div class="services__price">
                         <span>R$</span>
