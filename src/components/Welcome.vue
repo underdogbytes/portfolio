@@ -4,6 +4,17 @@
             <div>
                 <p class="header__title">btrz</p>
                 <p class="header__subtitle">designer & developer</p>
+                <div class="header__social">
+                    <a href="https://github.com/wolfhaltz" target="_blank">
+                        <img class="header__social__icon" src="@/assets/icons/github.svg" alt="Github">
+                    </a>
+                    <a href="https://www.behance.net/bridgetocross" target="_blank">
+                        <img class="header__social__icon" src="@/assets/icons/behance.svg" alt="Behance">
+                    </a>
+                    <a href="https://www.linkedin.com/in/btrz" target="_blank">
+                        <img class="header__social__icon" src="@/assets/icons/linkedin.svg" alt="LinkedIn">
+                    </a>
+                </div>
             </div>
         </div>
         <img class="header__img" src="@/assets/welcome-img.png" alt="">
@@ -55,6 +66,16 @@ header{
     color: rgb(255, 255, 255);
 }
 .header__img{ display: none; }
+
+.header__social{
+    margin: 2em 0 0 0;
+    column-width: 4em;
+    column-rule: 1px solid rgba(255, 255, 255, .25);
+}
+.header__social__icon{
+    max-width: 3em;
+    margin: auto;
+}
 
 @media screen and (min-width: 1000px){
     .header__text{
