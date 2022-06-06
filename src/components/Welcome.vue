@@ -6,13 +6,16 @@
                 <p class="header__subtitle">designer & developer</p>
                 <div class="header__social">
                     <a href="https://github.com/wolfhaltz" target="_blank">
-                        <img class="header__social__icon" src="@/assets/icons/github.svg" alt="Github">
+                        <img class="header__social__icon mobile" src="@/assets/icons/github.svg" alt="Github">
+                        <img class="header__social__icon desktop" src="@/assets/icons/github-gray.svg" alt="Github">
                     </a>
                     <a href="https://www.behance.net/bridgetocross" target="_blank">
-                        <img class="header__social__icon" src="@/assets/icons/behance.svg" alt="Behance">
+                        <img class="header__social__icon mobile" src="@/assets/icons/behance.svg" alt="Behance">
+                        <img class="header__social__icon desktop" src="@/assets/icons/behance-gray.svg" alt="Behance">
                     </a>
                     <a href="https://www.linkedin.com/in/btrz" target="_blank">
-                        <img class="header__social__icon" src="@/assets/icons/linkedin.svg" alt="LinkedIn">
+                        <img class="header__social__icon mobile" src="@/assets/icons/linkedin.svg" alt="LinkedIn">
+                        <img class="header__social__icon desktop" src="@/assets/icons/linkedin-gray.svg" alt="LinkedIn">
                     </a>
                 </div>
             </div>
@@ -70,12 +73,13 @@ header{
 .header__social{
     margin: 2em 0 0 0;
     column-width: 4em;
-    column-rule: 1px solid rgba(255, 255, 255, .25);
+    column-rule: 1px solid rgba(255, 255, 255, 0.25);
 }
 .header__social__icon{
     max-width: 3em;
     margin: auto;
 }
+.header__social__icon.desktop{display: none;}
 
 @media screen and (min-width: 1000px){
     .header__text{
@@ -94,6 +98,16 @@ header{
         shape-outside: url(../assets/welcome-img.png);
         z-index: -1;
         max-width: 40vw;
+    }
+    .header__social__icon.mobile{display: none;}
+    .header__social__icon.desktop{display: block;}
+    .header__bg{
+        display: none;
+    }
+    .header__social{
+        margin: 2em 0 0 0;
+        column-width: 4em;
+        column-rule: 1px solid rgba(31, 31, 31, 0.25);
     }
 }
 </style>
