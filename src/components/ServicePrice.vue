@@ -68,7 +68,8 @@ export default {
 <style scoped>
 .services__section{
     padding: 3em 0;
-    background: whitesmoke;
+    background: rgb(34, 34, 34);
+    color: whitesmoke;
 }
 .services__container{
     display: grid;
