@@ -6,21 +6,21 @@
                 <p class="header__subtitle">designer & developer</p>
                 <div class="header__social">
                     <a href="https://github.com/wolfhaltz" target="_blank">
-                        <img class="header__social__icon mobile" src="@/assets/icons/github.svg" alt="Github">
-                        <img class="header__social__icon desktop" src="@/assets/icons/github-gray.svg" alt="Github">
+                        <img loading="lazy" class="header__social__icon mobile" src="@/assets/icons/github.svg" alt="Github">
+                        <img loading="lazy" class="header__social__icon desktop" src="@/assets/icons/github-gray.svg" alt="Github">
                     </a>
                     <a href="https://www.behance.net/bridgetocross" target="_blank">
-                        <img class="header__social__icon mobile" src="@/assets/icons/behance.svg" alt="Behance">
-                        <img class="header__social__icon desktop" src="@/assets/icons/behance-gray.svg" alt="Behance">
+                        <img loading="lazy" class="header__social__icon mobile" src="@/assets/icons/behance.svg" alt="Behance">
+                        <img loading="lazy" class="header__social__icon desktop" src="@/assets/icons/behance-gray.svg" alt="Behance">
                     </a>
                     <a href="https://www.linkedin.com/in/btrz" target="_blank">
-                        <img class="header__social__icon mobile" src="@/assets/icons/linkedin.svg" alt="LinkedIn">
-                        <img class="header__social__icon desktop" src="@/assets/icons/linkedin-gray.svg" alt="LinkedIn">
+                        <img loading="lazy" class="header__social__icon mobile" src="@/assets/icons/linkedin.svg" alt="LinkedIn">
+                        <img loading="lazy" class="header__social__icon desktop" src="@/assets/icons/linkedin-gray.svg" alt="LinkedIn">
                     </a>
                 </div>
             </div>
         </div>
-        <img class="header__img" src="@/assets/welcome-img.png" alt="">
+        <img loading="lazy" class="header__img" src="@/assets/welcome-img.png" alt="">
     </header>
     <div class="header__bg"></div>
 </template>

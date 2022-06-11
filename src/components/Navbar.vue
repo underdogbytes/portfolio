@@ -1,6 +1,6 @@
 <template>
     <div class="primary-header flex">
-        <div><img src="@/assets/cat-signature.png" alt="logo" class="logo"></div>
+        <div><img loading="lazy" src="@/assets/cat-signature.png" alt="logo" class="logo"></div>
 
         <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
             <!-- <span class="sr-only">Menu</span> -->

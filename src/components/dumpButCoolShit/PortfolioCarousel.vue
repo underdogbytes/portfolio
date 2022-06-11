@@ -9,7 +9,7 @@
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
-                                <img :src="carouselElement.img" :alt="carouselElement.alt">
+                                <img loading="lazy" :src="carouselElement.img" :alt="carouselElement.alt">
                             </div>
                             <div class="flip-card-back">
                             <h1>{{ carouselElement.title }}</h1>

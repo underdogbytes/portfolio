@@ -2,7 +2,7 @@
     <div class="portfolioCards__container">
         <div class="portfolioCards" v-for="card in carouselCards" :key="card" data-aos="zoom-out">
             <div class="portfolioCards__front">
-                <img class="portfolioCards__thumbnail" :src="card.front.imgSrc" :alt="card.front.imgAlt" />
+                <img loading="lazy" class="portfolioCards__thumbnail" :src="card.front.imgSrc" :alt="card.front.imgAlt" />
                 <h3 class="portfolioCards__front__name">{{ card.front.name }}</h3>
                 <div class="portfolioCards__front__info">
                     <p>{{ card.front.description }}</p>
