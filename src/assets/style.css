@@ -8,6 +8,22 @@
 *::after {
     box-sizing: border-box;
 }
+
+:root {
+  --body-bg: #fafafa;
+  --body-color: #4F4F4F;
+}
+
+html[data-theme='light'] {
+  --body-bg: #fafafa;
+  --body-color: #4F4F4F;
+}
+
+html[data-theme='dark'] {
+  --body-bg: #202020;
+  --body-color: #fafafa;
+}
+
 html{
     scroll-padding-top: 12em;
     scroll-behavior: smooth;
@@ -15,8 +31,9 @@ html{
 body{
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
-    color: #4F4F4F;
     overflow-x: hidden;
+    color: var(--body-color);
+    background-color: var(--body-bg);
 }
 img,
 svg {
@@ -84,4 +101,3 @@ section{
       opacity: 1;
     }
   }
-  
