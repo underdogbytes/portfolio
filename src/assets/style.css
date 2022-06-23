@@ -10,8 +10,11 @@
 }
 
 :root {
+  /* --clr-bg-dark seens to tell more than body-color hahaha */
   --body-bg: #fafafa;
   --body-color: #4F4F4F;
+
+  --app-max-width: 2500px;
 }
 
 html[data-theme='light'] {
@@ -25,21 +28,32 @@ html[data-theme='dark'] {
 }
 
 html{
-    scroll-padding-top: 12em;
-    scroll-behavior: smooth;
+  scroll-padding-top: 12em;
+  scroll-behavior: smooth;
 }
 body{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
-    overflow-x: hidden;
-    color: var(--body-color);
-    background-color: var(--body-bg);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  overflow-x: hidden;
+  line-height: 1.5;
+  color: var(--body-color);
+  background-color: var(--body-bg);
+
+  max-width: var(--app-max-width);
+  margin: auto;
 }
 img,
 svg {
   max-width: 100%;
   display: block;
 }
+
+.container--max{
+  width: 100%;
+  max-width: var(--app-max-width);
+  margin: auto;
+}
+
 section{
     max-width: 1200px;
     margin: 3em auto;
