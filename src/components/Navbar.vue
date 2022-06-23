@@ -1,20 +1,22 @@
 <template>
-    <div class="primary-header flex">
-        <div><img loading="lazy" src="@/assets/cat-signature.png" alt="logo" class="logo"></div>
-
-        <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
-            <!-- <span class="sr-only">Menu</span> -->
-        </button>
-        
-        <nav>
-            <ul class="primary-navigation flex" id="primary-navigation" data-visible="false">
-                <li><a href=""><span aria-hidden="true">00</span>Home</a></li>
-                <li><a href=""><span aria-hidden="true">01</span>Projects</a></li>
-                <li><a href=""><span aria-hidden="true">02</span>About me</a></li>
-                <li><a href=""><span aria-hidden="true">03</span>Contact</a></li>
-                <!-- // TODO: toggle dark mode -->
-            </ul>  
-        </nav>
+    <div class="container--max">
+        <div class="primary-header flex">
+            <div><img loading="lazy" src="@/assets/cat-signature.png" alt="logo" class="logo"></div>
+    
+            <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+                <!-- <span class="sr-only">Menu</span> -->
+            </button>
+            
+            <nav>
+                <ul class="primary-navigation flex" id="primary-navigation" data-visible="false">
+                    <li><a href=""><span aria-hidden="true">00</span>Home</a></li>
+                    <li><a href=""><span aria-hidden="true">01</span>Projects</a></li>
+                    <li><a href=""><span aria-hidden="true">02</span>About me</a></li>
+                    <li><a href=""><span aria-hidden="true">03</span>Contact</a></li>
+                    <!-- // TODO: toggle dark mode -->
+                </ul>  
+            </nav>
+        </div>
     </div>
 </template>
 
@@ -33,6 +35,12 @@ export default {
 </script>
 
 <style scoped>
+.container--max{
+    position: absolute;
+    width: 100%;
+    max-width: var(--app-max-width);
+    margin: auto;
+}
 .flex{
     display: flex;
     gap: var(--gap, 2rem)
@@ -42,6 +50,8 @@ export default {
     width: 100px;
 }
 .primary-header{
+    position: sticky;
+    top: 0;
     align-items: center;
     justify-content: space-between;
 }
@@ -59,7 +69,7 @@ export default {
 
 @supports(backdrop-filter: blur(1rem)){
     .primary-navigation{
-        background: hsl(0 0% 100% / 0.1);
+        background: hsl(0 0% 0% / 0.8);
         backdrop-filter: blur(1rem); /* doesn't work on firefox :(( */
     }
 }
