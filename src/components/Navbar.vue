@@ -1,7 +1,9 @@
 <template>
-    <div class="container--max">
+    <div class="container--max container--max--nav">
         <div class="primary-header flex">
-            <div><img loading="lazy" src="@/assets/cat-signature.png" alt="logo" class="logo"></div>
+            <a href="">
+                <img loading="lazy" src="@/assets/cat-signature.png" alt="logo" class="logo"/>
+            </a>
     
             <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
                 <!-- <span class="sr-only">Menu</span> -->
@@ -9,9 +11,9 @@
             
             <nav>
                 <ul class="primary-navigation flex" id="primary-navigation" data-visible="false">
-                    <li><a href=""><span aria-hidden="true">00</span>Home</a></li>
-                    <li><a href=""><span aria-hidden="true">01</span>Projects</a></li>
-                    <li><a href=""><span aria-hidden="true">02</span>About me</a></li>
+                    <li><a href="/"><span aria-hidden="true">00</span>Home</a></li>
+                    <li><a href="/projects"><span aria-hidden="true">01</span>Projects</a></li>
+                    <li><a href="/about"><span aria-hidden="true">02</span>About me</a></li>
                     <li><a href=""><span aria-hidden="true">03</span>Contact</a></li>
                     <!-- // TODO: toggle dark mode -->
                 </ul>  
@@ -35,11 +37,9 @@ export default {
 </script>
 
 <style scoped>
-.container--max{
+.container--max--nav{
     position: absolute;
-    width: 100%;
-    max-width: var(--app-max-width);
-    margin: auto;
+    z-index: 1000;
 }
 .flex{
     display: flex;
@@ -84,6 +84,7 @@ export default {
 }
 
 @media (max-width: 35em) {
+    .logo{display: none;}
     .primary-navigation{
         --gap: clamp(1.5rem, 5vw, 3rem);
         position: fixed;
@@ -107,7 +108,7 @@ export default {
         background-repeat: no-repeat;
         width: 2rem;
         aspect-ratio: 1;
-        top: 2rem;
+        top: 0;
         right: 2rem;
         border: 0;
     }
