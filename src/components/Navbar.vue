@@ -14,7 +14,7 @@
                     <li><a href="/"><span aria-hidden="true">00</span>Home</a></li>
                     <li><a href="/projects"><span aria-hidden="true">01</span>Projects</a></li>
                     <li><a href="/about"><span aria-hidden="true">02</span>About me</a></li>
-                    <li><a href=""><span aria-hidden="true">03</span>Contact</a></li>
+                    <li><a href="/contact"><span aria-hidden="true">03</span>Contact</a></li>
                     <!-- // TODO: toggle dark mode -->
                 </ul>  
             </nav>
