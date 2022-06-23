@@ -53,6 +53,8 @@ svg {
   max-width: var(--app-max-width);
   margin: auto;
 }
+.ghost{ height: 10em; }
+.m-2{ margin: 2rem; }
 
 section{
     max-width: 1200px;
