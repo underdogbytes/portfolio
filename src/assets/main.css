@@ -1,5 +1,38 @@
 @import './base.css';
 
+:root {
+  /* --clr-bg-dark seens to tell more than body-color hahaha */
+  --body-bg: #fafafa;
+  --body-color: #4F4F4F;
+
+  --app-max-width: 2500px;
+}
+
+html {
+  scroll-padding-top: 12em;
+  scroll-behavior: smooth;
+}
+
+html[data-theme='light'] {
+  --body-bg: #fafafa;
+  --body-color: #4F4F4F;
+}
+
+html[data-theme='dark'] {
+  --body-bg: #202020;
+  --body-color: #fafafa;
+}
+
+body {
+  overflow-x: hidden;
+  line-height: 1.5;
+  color: var(--body-color);
+  background-color: var(--body-bg);
+
+  max-width: var(--app-max-width);
+  margin: auto;
+}
+
 #app {
   max-width: 1280px;
   margin: 0 auto;
