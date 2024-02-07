@@ -8,7 +8,7 @@
 			>
 				<img
 					src="@/assets/icons/github.svg"
-					alt=""
+					alt="Github icon"
 				>
 			</a>
 		</li>
@@ -20,7 +20,7 @@
 			>
 				<img
 					src="@/assets/icons/behance.svg"
-					alt=""
+					alt="Behance icon"
 				>
 			</a>
 		</li>
@@ -32,7 +32,7 @@
 			>
 				<img
 					src="@/assets/icons/linkedin.svg"
-					alt="Behance icon"
+					alt="Linkedin icon"
 				>
 			</a>
 		</li>
