@@ -8,7 +8,11 @@ h6 {
 }
 
 h2 {
-  font-size: calc(9vw + 10px);
+  font-size: calc(6vw + 10px);
+}
+
+h3 {
+  font-size: calc(4vw + 10px);
 }
 
 p {
