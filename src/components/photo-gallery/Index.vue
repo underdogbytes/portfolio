@@ -39,8 +39,6 @@
 <script>
 
 export default {
-
-
 	name: 'ProjectGallery',
 	props: {
 		photos: { type: Array, default: [] }
