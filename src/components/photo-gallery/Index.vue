@@ -6,7 +6,7 @@
 			class="project-gallery__box stacked"
 		>
 			<img
-				:src="`@${photo.source}`"
+				:src="photo.source"
 				alt=""
 				class="project-gallery__img"
 			>
