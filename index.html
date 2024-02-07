@@ -1,13 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8">
     <link rel="icon" href="/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vite App</title>
+    <meta name="description" content="Portfólio 2024 Beatriz Lima">
+    <meta name="keywords"
+      content="beatriz lima portfolio, beatriz dev, beatriz ui, ui designer, software engineer,
+      freelancer, freelancer ui designer, freelancer software engineer,
+      desenvolvedores de software em Curitiba, ui designer em Curitiba, Desenvolvimento Web Curitiba, Desenvolvedores Full Stack em Curitiba">
+
+    <title id="animatedTitle">btrz portfolio | Software engineer & UI/UX Designer</title>
   </head>
+
   <body>
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
+
+    <script>
+      function animateTitle() {
+        const title = document.getElementById('animatedTitle');
+        let counter = 0;
+
+        setInterval(() => {
+          counter++;
+          title.innerText = counter % 2 === 0 ? 'btrz portfolio' : 'Welcome! :D';
+        }, 1000);
+      }
+      window.onload = animateTitle;
+    </script>
   </body>
+
 </html>
