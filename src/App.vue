@@ -1,9 +1,12 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import ThemeToggle from '@/components/ThemeToggle.vue';
+import SideFixedBar from '@/components/sideFixedBar/Index.vue';
+import MyFooter from '@/components/footer/Index.vue';
+
 </script>
 
 <template>
-	<ThemeToggle />
+	<side-fixed-bar />
 	<RouterView />
+	<my-footer />
 </template>

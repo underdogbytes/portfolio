@@ -5,7 +5,7 @@
   --body-bg: #fafafa;
   --body-color: #4F4F4F;
 
-  --app-max-width: 2500px;
+  --app-max-width: 1100px;
 }
 
 html {
@@ -29,29 +29,20 @@ body {
   color: var(--body-color);
   background-color: var(--body-bg);
 
-  max-width: var(--app-max-width);
+  /* max-width: var(--app-max-width); */
   margin: auto;
 }
 
 #app {
-  max-width: 1280px;
+  width: 100%;
   margin: 0 auto;
-  padding: 2rem;
   font-weight: normal;
 }
 
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-  padding: 3px;
-}
-
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
+.container {
+  max-width: var(--app-max-width);
+  padding: 2rem;
+  margin: auto;
 }
 
 @media (min-width: 1024px) {
@@ -60,7 +51,8 @@ a,
     place-items: center;
   }
 
-  #app {
-    padding: 0 2rem;
+  .d-flex-between-md {
+    display: flex;
+    justify-content: space-between;
   }
 }

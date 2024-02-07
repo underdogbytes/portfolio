@@ -1,0 +1,25 @@
+:root {
+  --btn-default-bg: #00bd7e;
+  --btn-default-text: #000;
+  --btn-default-bg-hover: #1ccb91;
+  --btn-default-text-hover: #414141;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 8px;
+
+  border-color: var(--btn-default-bg);
+  background-color: var(--btn-default-bg);
+
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: large;
+  color: var(--btn-default-text);
+}
+
+button:hover {
+  background-color: var(--btn-default-bg-hover);
+  color: var(--btn-default-text-hover);
+}

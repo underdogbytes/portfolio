@@ -1,69 +1,62 @@
 <template>
 	<div
 		class="toggle"
-		@click="changeTheme()"
+		@click="toggleTheme()"
 	>
 		<img
-			class="day active"
-			src="@/assets/icons/day.svg"
-			alt=""
-		>
-		<img
-			class="night"
-			src="@/assets/icons/night.svg"
-			alt=""
+			:src="toggleIcon"
+			:alt="toggleAlt"
 		>
 	</div>
 </template>
 
 <script>
-export default {
-	methods: {
-		changeIcons() {
-			let day = document.getElementsByClassName('day')[0];
-			let night = document.getElementsByClassName('night')[0];
-			day.classList.contains('active') ?
-				(day.classList.remove('active'), night.classList.add('active'))
-				: (night.classList.remove('active'), day.classList.add('active'))
-		},
-		changeTheme() {
-			let storedTheme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')
-			if (storedTheme) document.documentElement.setAttribute('data-theme', storedTheme)
-			let currentTheme = document.documentElement.getAttribute("data-theme")
+import themeService from '@/services/theme';
+import dayIcon from '@/assets/icons/day.svg';
+import nightIcon from '@/assets/icons/night.svg';
 
-			currentTheme === 'light' ? this.changeCurrentThemeTo('dark') : this.changeCurrentThemeTo('light')
-		},
-		changeCurrentThemeTo(theme) {
-			this.changeIcons()
-			this.setAtributesTheme(theme)
-		},
-		setAtributesTheme(theme) {
-			document.documentElement.setAttribute("data-theme", theme)
-			localStorage.setItem('theme', theme)
+export default {
+	data() {
+		return {
+			theme: ''
 		}
-	}
+	},
+	mounted() {
+		this.theme = themeService.getCurrentTheme();
+	},
+	computed: {
+		toggleIcon() {
+			return this.theme == 'light' ? dayIcon : nightIcon;
+		},
+		toggleAlt() {
+			return this.theme == 'light'
+				? 'Sun icon: click on me to show light mode'
+				: 'Moon icon: click on me to show dark mode'
+		}
+	},
+	methods: {
+		toggleTheme() {
+			this.theme = themeService.toggleTheme(this.theme);
+			this.setAttributesTheme(this.theme);
+		},
+		setAttributesTheme(theme) {
+			document.documentElement.setAttribute('data-theme', theme);
+			localStorage.setItem('theme', theme);
+		},
+	},
+
 }
 </script>
 
 <style>
-.toggle {
-	position: fixed;
-	left: 0;
-	bottom: 0;
-	z-index: 200;
-}
 .toggle :where(img) {
-	display: none;
-	margin: 2em;
+	display: block;
 	width: 3em;
 	height: 3em;
 }
 .toggle:hover :where(img) {
 	animation: shakeIcon 1.5s, lsdIcon 1s;
 	animation-iteration-count: infinite;
-}
-.toggle :where(img.active) {
-	display: block;
 }
 
 @keyframes lsdIcon {
