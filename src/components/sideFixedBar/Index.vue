@@ -1,22 +1,40 @@
 <template>
 	<ul class="floatingBox">
 		<li>
-			<img
-				src="@/assets/icons/github.svg"
-				alt=""
+			<a
+				href="https://github.com/tocrossbridge"
+				target="_blank"
+				rel="noopener noreferrer"
 			>
+				<img
+					src="@/assets/icons/github.svg"
+					alt=""
+				>
+			</a>
 		</li>
 		<li>
-			<img
-				src="@/assets/icons/behance.svg"
-				alt=""
+			<a
+				href="https://www.behance.net/bridgetocross"
+				target="_blank"
+				rel="noopener noreferrer"
 			>
+				<img
+					src="@/assets/icons/behance.svg"
+					alt=""
+				>
+			</a>
 		</li>
 		<li>
-			<img
-				src="@/assets/icons/linkedin.svg"
-				alt="Behance icon"
+			<a
+				href="https://www.linkedin.com/in/btrz/"
+				target="_blank"
+				rel="noopener noreferrer"
 			>
+				<img
+					src="@/assets/icons/linkedin.svg"
+					alt="Behance icon"
+				>
+			</a>
 		</li>
 		<li>
 			<theme-toggle-vue />
@@ -74,7 +92,7 @@ export default {
 	transform: scale(1.1);
 }
 
-.floatingBox li > img {
+.floatingBox li img {
 	width: 48px;
 	/* max-height: 36px; */
 	margin: auto;
