@@ -13,7 +13,7 @@
 			<p>And click here to see my CV:</p>
 
 			<a
-				href="../../../../public/cv.pdf"
+				href="https://drive.google.com/file/d/1qJJZtE36uLkJki_58gBWvOUwrBKOVUdn/view?usp=sharing"
 				target="_blank"
 			>
 				<button>
