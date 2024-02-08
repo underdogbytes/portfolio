@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import themeService from '@/services/theme';
+import themeService from '@/common/services/theme';
 import dayIcon from '@/assets/icons/day.svg';
 import nightIcon from '@/assets/icons/night.svg';
 

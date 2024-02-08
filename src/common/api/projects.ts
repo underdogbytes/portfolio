@@ -1,4 +1,4 @@
-import projects from '@/constants/projects';
+import projects from '@/common/constants/projects';
 
 export default class Projects {
   static getAll() {

@@ -25,7 +25,11 @@
 		</ul>
 	</div>
 </template>
-
+<script>
+export default {
+	name: 'HomeContact'
+}
+</script>
 <style scoped>
 li {
 	list-style: none;

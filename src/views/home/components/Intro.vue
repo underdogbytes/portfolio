@@ -21,10 +21,10 @@
 		</div>
 	</div>
 </template>
-<script>
 
+<script>
 export default {
-	name: 'Intro'
+	name: 'HomeIntro'
 }
 </script>
 <style>

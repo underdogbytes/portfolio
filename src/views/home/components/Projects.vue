@@ -8,10 +8,10 @@
 </template>
 <script>
 import ProjectsGallery from '@/components/projects-gallery/Index.vue'
-import Projects from '@/api/projects'
+import Projects from '@/common/api/projects'
 
 export default {
-	name: 'PortfolioHome',
+	name: 'HomePortfolio',
 	components: {
 		ProjectsGallery
 	},

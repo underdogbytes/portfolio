@@ -42,7 +42,7 @@
 	</ul>
 </template>
 <script>
-import themeService from '@/services/theme';
+import themeService from '@/common/services/theme';
 import ThemeToggleVue from '@/components/ThemeToggle.vue'
 
 export default {

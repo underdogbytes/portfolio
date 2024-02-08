@@ -1,14 +1,14 @@
 <template>
 	<div>
 		<intro />
-		<about-me />
+		<about />
 		<projects />
 		<contact />
 	</div>
 </template>
 
 <script>
-import AboutMe from './components/About.vue'
+import About from './components/About.vue'
 import Contact from './components/Contact.vue'
 import Intro from './components/Intro.vue'
 import Projects from './components/Projects.vue'
@@ -16,7 +16,7 @@ import Projects from './components/Projects.vue'
 export default {
 	name: 'HomePage',
 	components: {
-		AboutMe,
+		About,
 		Contact,
 		Intro,
 		Projects

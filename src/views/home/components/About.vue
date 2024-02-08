@@ -39,7 +39,7 @@
 </template>
 <script>
 export default {
-	name: 'AboutMe',
+	name: 'HomeAbout',
 }
 </script>
 <style scoped>
