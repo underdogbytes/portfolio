@@ -27,7 +27,7 @@ const projects = [
     img: tempestade,
     name: 'Tempestade Criativa',
     description: 'Design by the talented Ito and developed with HTML/CSS/JS.',
-    type: 'Agência de publicidade',
+    type: 'Publicity agency',
     workedAs: ['developer'],
     skills: ['html/css/js'],
   },
