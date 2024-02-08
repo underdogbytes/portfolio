@@ -3,14 +3,18 @@
 :root {
   --app-max-width: 1100px;
   --box-shadow: 0 30px 70px -25px rgba(0, 0, 0, .1);
-}
 
-html[data-theme='light'] {
+  /* Fallback */
   --body-bg: #ffffff;
   --body-color: #4F4F4F;
 }
 
-html[data-theme='dark'] {
+[data-theme='light'] {
+  --body-bg: #ffffff;
+  --body-color: #4F4F4F;
+}
+
+[data-theme='dark'] {
   --body-bg: #202020;
   --body-color: #fafafa;
 }

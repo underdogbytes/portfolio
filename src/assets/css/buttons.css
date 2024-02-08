@@ -1,11 +1,19 @@
-html[data-theme='light'] {
+/* Fallback */
+:root {
   --btn-default-bg: #212121;
   --btn-default-text: #fff;
   --btn-default-bg-hover: #565656;
   --btn-default-text-hover: #fff;
 }
 
-html[data-theme='dark'] {
+[data-theme='light'] {
+  --btn-default-bg: #212121;
+  --btn-default-text: #fff;
+  --btn-default-bg-hover: #565656;
+  --btn-default-text-hover: #fff;
+}
+
+[data-theme='dark'] {
   --btn-default-bg: #fff;
   --btn-default-text: #212121;
   --btn-default-bg-hover: #414141;

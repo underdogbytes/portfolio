@@ -11,12 +11,18 @@ export default {
 }
 </script>
 <style>
-html[data-theme='light'] {
+/* Fallback */
+:root {
 	--footer-bg: #fdfdfd;
 	--footer-text: #212121;
 }
 
-html[data-theme='dark'] {
+[data-theme='light'] {
+	--footer-bg: #fdfdfd;
+	--footer-text: #212121;
+}
+
+[data-theme='dark'] {
 	--footer-bg: #212121;
 	--footer-text: #fefefe;
 }
