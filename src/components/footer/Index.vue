@@ -11,20 +11,25 @@ export default {
 }
 </script>
 <style>
-:root {
-	--cat-bg: #f6f6f6;
-	--cat-border-radius: 30%;
+html[data-theme='light'] {
+	--footer-bg: #fefefe;
+	--footer-text: #212121;
+}
+
+html[data-theme='dark'] {
+	--footer-bg: #212121;
+	--footer-text: #fefefe;
 }
 
 footer {
 	padding: 20px 0 0 0;
 	display: block;
+	background-color: var(--footer-bg);
 }
 .footer__copy {
 	margin: 1rem auto auto auto;
 	padding: 1rem 0;
-	color: #c1c1c1;
-	background-color: #212121;
+	color: var(--footer-text);
 }
 .footer__copy p {
 	font-weight: 400;
