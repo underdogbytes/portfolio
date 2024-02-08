@@ -6,7 +6,9 @@ import MyFooter from '@/components/footer/Index.vue';
 </script>
 
 <template>
+	<main>
+		<RouterView />
+	</main>
 	<side-fixed-bar />
-	<RouterView />
 	<my-footer />
 </template>

@@ -12,7 +12,7 @@ export default {
 </script>
 <style>
 html[data-theme='light'] {
-	--footer-bg: #fefefe;
+	--footer-bg: #fdfdfd;
 	--footer-text: #212121;
 }
 
