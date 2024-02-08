@@ -5,11 +5,13 @@
 			:key="i"
 			class="project-gallery__box"
 		>
-			<img
-				:src="project.img"
-				alt=""
-				class="project-gallery__img"
-			>
+			<div class="project-gallery__img-container">
+				<img
+					:src="project.img"
+					alt=""
+					class="project-gallery__img"
+				>
+			</div>
 
 			<div class="project-gallery__description">
 				<p class="project-gallery__title">{{ project.name }}</p>
@@ -31,18 +33,30 @@ export default {
 <style>
 .project-gallery__grid {
 	display: grid;
-	gap: 1rem;
+	gap: 2rem;
 	grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
 }
 
 .project-gallery__box {
 	border: 3px solid transparent;
+	cursor: pointer;
 }
 
+.project-gallery__img-container {
+	overflow: hidden;
+	aspect-ratio: 1/1;
+}
 .project-gallery__img {
 	width: 100%;
 	aspect-ratio: 1/1;
 	object-fit: cover;
+
+	transition: transform 0.4s ease;
+	transform-origin: 50% 50%;
+}
+
+.project-gallery__box:hover .project-gallery__img {
+	transform: scale(1.2);
 }
 
 .project-gallery__description {
