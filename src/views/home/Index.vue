@@ -11,7 +11,7 @@
 import AboutMe from './components/About.vue'
 import Contact from './components/Contact.vue'
 import Intro from './components/Intro.vue'
-import Projects from './components/projects/Index.vue'
+import Projects from './components/Projects.vue'
 
 export default {
 	name: 'HomePage',

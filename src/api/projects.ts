@@ -7,30 +7,34 @@ const projects = [
   {
     source: fauna,
     name: 'Coleções: Fauna do Brasil',
-    tags: ['developer'],
-    techs: ['php', 'openCart'],
     description: 'Design by Bruno and developed with openCart by me.',
+    type: 'E-commerce',
+    workedAs: ['developer'],
+    skills: ['php', 'openCart'],
   },
   {
     source: renovacao,
-    tags: ['developer', 'designer'],
-    techs: ['php', 'laravel'],
-    name: 'Escola Renovação',
-    description: 'Design and development by me using Figma and Laravel/PHP'
+    name: 'Renovação',
+    description: 'Design and development by me using Figma and Laravel/PHP',
+    type: 'School',
+    workedAs: ['developer', 'designer'],
+    skills: ['php', 'laravel'],
   },
   {
     source: tempestade,
-    tags: ['developer'],
-    techs: ['html/css/js'],
-    name: 'Agência Tempestade Criativa',
-    description: 'Design by the talented Ito and developed with HTML/CSS/JS.'
+    name: 'Tempestade Criativa',
+    description: 'Design by the talented Ito and developed with HTML/CSS/JS.',
+    type: 'Agência de publicidade',
+    workedAs: ['developer'],
+    skills: ['html/css/js'],
   },
   {
     source: showGospel,
-    tags: ['developer'],
-    techs: ['php', 'laravel'],
-    name: 'Revista Show Gospel',
-    description: 'Design by Püblysh agency and development by me using Laravel/PHP'
+    name: 'Show Gospel',
+    description: 'Design by Püblysh agency and development by me using Laravel/PHP',
+    type: 'Magazine Website',
+    workedAs: ['developer'],
+    skills: ['php', 'laravel'],
   }
 ]
 

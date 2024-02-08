@@ -2,24 +2,22 @@
 	<div class="container">
 		<h2>Projects</h2>
 
-		<p>Hover the photos to see more info:</p>
-
-		<photo-gallery :photos="photos" />
+		<projects-gallery :projects="projects" />
 
 	</div>
 </template>
 <script>
-import PhotoGallery from '@/components/photo-gallery/Index.vue'
+import ProjectsGallery from '@/components/projects-gallery/Index.vue'
 import Projects from '@/api/projects'
 
 export default {
 	name: 'PortfolioHome',
 	components: {
-		PhotoGallery
+		ProjectsGallery
 	},
 	data() {
 		return {
-			photos: []
+			projects: []
 		}
 	},
 	mounted() {
@@ -28,7 +26,7 @@ export default {
 	methods: {
 		getProjects() {
 			const projects = Projects.getAll();
-			this.photos = projects;
+			this.projects = projects;
 		}
 	}
 }
