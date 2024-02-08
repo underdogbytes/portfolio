@@ -2,6 +2,17 @@
 
 :root {
   --app-max-width: 1100px;
+  --box-shadow: 0 30px 70px -25px rgba(0, 0, 0, .1);
+}
+
+html[data-theme='light'] {
+  --body-bg: #ffffff;
+  --body-color: #4F4F4F;
+}
+
+html[data-theme='dark'] {
+  --body-bg: #202020;
+  --body-color: #fafafa;
 }
 
 *,
@@ -15,16 +26,6 @@
 html {
   scroll-padding-top: 12em;
   scroll-behavior: smooth;
-}
-
-html[data-theme='light'] {
-  --body-bg: #fafafa;
-  --body-color: #4F4F4F;
-}
-
-html[data-theme='dark'] {
-  --body-bg: #202020;
-  --body-color: #fafafa;
 }
 
 body {
@@ -49,7 +50,10 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
 
+main {
+  box-shadow: var(--box-shadow);
 }
 
 img,
