@@ -3,9 +3,7 @@
 		<div class="container">
 			<div class="about__grid card--glass">
 				<div>
-					<div class="about__title">
-						<h2>About me</h2>
-					</div>
+					<h2>About me</h2>
 
 					<p>So, hellow there! ^-^</p>
 					<p>
@@ -68,21 +66,11 @@ export default {
 	background-repeat: repeat;
 	background-size: 250px;
 }
-
-.about__title {
-	margin-bottom: 1rem;
-}
 .about__dog-logo {
 	margin-top: calc(16px + 3rem);
 	width: 200px;
 }
 button {
 	margin-bottom: 1rem;
-}
-
-@media screen and (min-width: 1200px) {
-	.about__title {
-		display: flex;
-	}
 }
 </style>
