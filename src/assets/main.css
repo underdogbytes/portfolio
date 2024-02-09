@@ -41,7 +41,7 @@ body {
   line-height: 1.6;
   color: var(--body-color);
 
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--font-montserrat);
   font-optical-sizing: auto;
   font-size: 1em;
 
@@ -77,10 +77,5 @@ picture {
   body {
     display: flex;
     place-items: center;
-  }
-
-  .d-flex-between-md {
-    display: flex;
-    justify-content: space-between;
   }
 }

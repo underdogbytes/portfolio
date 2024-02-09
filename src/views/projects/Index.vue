@@ -1,22 +1,33 @@
 <template>
-	<div>
-		<h1>Portfolio</h1>
+	<div class="container">
+		<h2>Projects</h2>
 
-		<!-- TODO: filter by tags -->
-		<div>
-			<p>Showing all projects. Click on the badges to filter them</p>
-			<!-- TODO: make badge a component -->
-			<div>Show all</div>
-			<div>VueJS</div>
-			<div>React</div>
-			<div>Laravel</div>
-			<div>Snippets</div>
-			<div>Article</div>
-		</div>
+		<projects-gallery :projects="projects" />
+
 	</div>
 </template>
 <script>
+import ProjectsGallery from '@/components/projects-gallery/Index.vue'
+import Projects from '@/common/api/projects'
+
 export default {
-	name: 'ProjectsPage'
+	name: 'HomePortfolio',
+	components: {
+		ProjectsGallery
+	},
+	data() {
+		return {
+			projects: []
+		}
+	},
+	mounted() {
+		this.getProjects();
+	},
+	methods: {
+		getProjects() {
+			const projects = Projects.getAll();
+			this.projects = projects;
+		}
+	}
 }
 </script>

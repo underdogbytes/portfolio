@@ -1,6 +1,7 @@
 .container {
   max-width: var(--app-max-width);
-  margin: 10vh auto;
+  margin: auto;
+  padding: 8rem;
   margin-inline: auto;
   padding-inline: 2rem;
 }
@@ -12,4 +13,37 @@
 .stacked > * {
   grid-column: 1/2;
   grid-row: 1/2;
+}
+
+/* Effects */
+.glass {
+  background: rgba(108, 108, 108, 0.045);
+  backdrop-filter: blur(5px);
+}
+
+/* Displays */
+.d-flex {
+  display: flex;
+}
+
+/* Margins */
+.m-auto {
+  margin: auto;
+}
+
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.mt-auto {
+  margin-top: auto;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.mb-auto {
+  margin-top: auto;
 }

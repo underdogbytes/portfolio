@@ -5,14 +5,18 @@ h4,
 h5,
 h6 {
   font-family: 'Bebas Neue', sans-serif;
+  line-height: 0.9;
+  font-weight: 400;
+}
+
+
+h1 {
+  font-family: var(--font-tangerine);
+  font-size: calc(16px + 5rem);
 }
 
 h2 {
-  font-size: calc(6vw + 10px);
-}
-
-h3 {
-  font-size: calc(4vw + 10px);
+  font-size: calc(16px + 4rem);
 }
 
 p {

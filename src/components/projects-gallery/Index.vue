@@ -2,8 +2,6 @@
 	<div>
 		<project-filter @filter="getFilter" />
 		<gallery :projects="filteredProjects" />
-
-		<p>Click <a href="/projects">here to see all projects</a>! ♡</p>
 	</div>
 </template>
 <script>

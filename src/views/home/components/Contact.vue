@@ -33,7 +33,7 @@ export default {
 <style scoped>
 li {
 	list-style: none;
-	font-family: 'Bebas Neue', sans-serif;
+	font-family: var(--font-bebas);
 	font-weight: 400;
 	font-size: 40px;
 }
