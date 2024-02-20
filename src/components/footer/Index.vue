@@ -13,17 +13,17 @@ export default {
 <style>
 /* Fallback */
 :root {
-	--footer-bg: #fdfdfd;
-	--footer-text: #212121;
+	--footer-bg: #2b2b28;
+	--footer-text: #fefefe;
 }
 
 [data-theme='light'] {
-	--footer-bg: #fdfdfd;
-	--footer-text: #212121;
+	--footer-bg: #2b2b28;
+	--footer-text: #fefefe;
 }
 
 [data-theme='dark'] {
-	--footer-bg: #212121;
+	--footer-bg: #2b2b28;
 	--footer-text: #fefefe;
 }
 

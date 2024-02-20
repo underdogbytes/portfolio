@@ -62,12 +62,12 @@ export default {
 </script>
 <style>
 :root {
-	--toggle-bg: rgb(67, 124, 184);
-	--toggle-bg-hover: rgb(79, 149, 223);
+	--toggle-bg: #0a81ab;
+	--toggle-bg-hover: #4f95df;
 }
 [data-theme='dark'] {
-	--toggle-bg: #212121;
-	--toggle-bg-hover: #373737;
+	--toggle-bg: #374045;
+	--toggle-bg-hover: #2d2d2d;
 }
 
 .floatingBox {

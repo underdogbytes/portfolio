@@ -30,6 +30,18 @@ export default {
 </script>
 
 <style>
+:root {
+	--projects-gallery-font-clr: #fff;
+}
+
+[data-theme='light'] {
+	--projects-gallery-font-clr: #fff;
+}
+
+[data-theme='dark'] {
+	--projects-gallery-font-clr: #4a4a48;
+}
+
 .project-gallery__grid {
 	display: grid;
 	gap: 2rem;
@@ -64,7 +76,7 @@ export default {
 }
 
 p.project-gallery__title {
-	color: var(--body-color);
+	color: var(--projects-gallery-font-clr);
 	font-size: medium;
 	font-weight: 800;
 	line-height: 1.1;
@@ -72,6 +84,6 @@ p.project-gallery__title {
 
 .project-gallery__type {
 	font-weight: 400;
-	color: var(--body-color);
+	color: var(--projects-gallery-font-clr);
 }
 </style>

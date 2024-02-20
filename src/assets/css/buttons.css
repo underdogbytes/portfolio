@@ -1,15 +1,15 @@
 /* Fallback */
 :root {
-  --btn-default-bg: #212121;
+  --btn-default-bg: #2B2B28;
   --btn-default-text: #fff;
-  --btn-default-bg-hover: #565656;
+  --btn-default-bg-hover: #4b4b4b;
   --btn-default-text-hover: #fff;
 }
 
 [data-theme='light'] {
-  --btn-default-bg: #212121;
+  --btn-default-bg: #2B2B28;
   --btn-default-text: #fff;
-  --btn-default-bg-hover: #565656;
+  --btn-default-bg-hover: #4b4b4b;
   --btn-default-text-hover: #fff;
 }
 
