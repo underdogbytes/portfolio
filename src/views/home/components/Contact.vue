@@ -51,10 +51,18 @@ export default {
 	background-color: var(--contact-bg-clr);
 	color: var(--contact-text-clr);
 }
-li {
-	list-style: none;
+dt {
 	font-family: var(--font-montserrat);
 	font-weight: 400;
-	font-size: 36px;
+}
+
+dt:hover:before {
+	content: '♡';
+	color: var(--link-color);
+}
+
+dt:hover:after {
+	content: '♡';
+	color: var(--link-color);
 }
 </style>
