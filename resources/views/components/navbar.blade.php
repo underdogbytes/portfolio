@@ -1,3 +1,3 @@
 <nav>
-    <a href="/">Home</a>
+    <a href="https://github.com/tocrossbridge">Github</a>
 </nav>
