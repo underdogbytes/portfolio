@@ -1,0 +1,8 @@
+/* Footer  */
+footer > div {
+  /* 🏗️ Foundation */
+  max-width: var(--container);
+  display: grid;
+  place-items: center;
+  margin: auto;
+}

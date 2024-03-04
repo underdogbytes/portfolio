@@ -1,0 +1,36 @@
+/* Cards */
+:root {
+  --card-bg: #353535;
+  --card-font-color: #f5f5f5;
+}
+
+.card {
+  /* 🏗️ Foundation */
+  max-width: fit-content;
+  padding: 3em;
+  border-radius: .5em;
+
+  /* 🎨 Style */
+  background-color: var(--card-bg);
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1);
+
+  /* 📝 Text */
+  color: var(--card-font-color);
+}
+
+.card:hover {
+  transform: scale(1.01);
+}
+
+.card h1 {
+  font-size: large;
+}
+
+.container > .card {
+  margin: auto;
+}
+
+.card--gradient {
+  background: linear-gradient(223deg, #23232385, #555555a6)
+}

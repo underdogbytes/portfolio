@@ -1,0 +1,17 @@
+:root {
+  --navbar-padding-top: 2%;
+}
+
+nav {
+  /* 🏗️ Foundation */
+  max-width: var(--container);
+  margin: auto;
+  display: grid;
+  place-items: end;
+  padding-top: var(--navbar-padding-top);
+}
+
+nav a {
+  /* 📝 Text */
+  color: var(--font-color);
+}

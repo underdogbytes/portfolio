@@ -1,0 +1,12 @@
+/* Utils */
+@import url('utils.css');
+@import url('fonts.css');
+
+/* Main template */
+@import url('navbar.css');
+@import url('body.css');
+@import url('main.css');
+@import url('footer.css');
+
+/* Components */
+@import url('card.css');
