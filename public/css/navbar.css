@@ -1,17 +1,61 @@
 :root {
-  --navbar-padding-top: 2%;
+  --navbar-padding-top: 2rem;
+
+  --navbar-link-color: #212121;
+  --navbar-link-color--hover: #d60606;
+  --navbar-font-weight--hover: 800;
 }
 
+/* 🏗️ Foundation */
 nav {
-  /* 🏗️ Foundation */
-  max-width: var(--container);
-  margin: auto;
-  display: grid;
-  place-items: end;
+  width: -webkit-fill-available;
+  padding: var(--app-padding);
   padding-top: var(--navbar-padding-top);
+  position: absolute;
 }
 
-nav a {
-  /* 📝 Text */
-  color: var(--font-color);
+nav section {
+  max-width: var(--app-max-width);
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo */
+.nav__logo__box {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav__logo__box span {
+  display: none;
+}
+
+.nav__logo__box:hover span {
+  display: block;
+}
+
+/* 📝 Text */
+.nav__links__box {
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .nav__links__box {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .nav__links__box a {
+    color: var(--navbar-link-color);
+    font-weight: inherit;
+    transition: font-weight 0.3s ease;
+  }
+
+  .nav__links__box a:hover {
+    color: var(--navbar-link-color--hover);
+    font-weight: var(--navbar-font-weight--hover);
+  }
 }

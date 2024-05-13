@@ -19,8 +19,6 @@
       @yield('content')
     </main>
 
-    <x-footer />
-
   </body>
 
 </html>

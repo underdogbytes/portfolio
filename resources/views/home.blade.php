@@ -2,12 +2,6 @@
 
 @section('content')
 
-<div class="container">
-  <div class="card card--gradient">
-    <h1>( ＾◡＾)っ UNDER MAINTENANCE ≽^•⩊•^≼</h1>
-    <p>Come back soon :D</p>
-    <p>xoxo ♡</p>
-  </div>
-</div>
+<x-hero bg="{{asset('assets/images/backgrounds/dark-forest.jpg')}}" />
 
 @endsection

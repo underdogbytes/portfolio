@@ -1,7 +1,7 @@
 /* Footer  */
+/* 🏗️ Foundation */
 footer > div {
-  /* 🏗️ Foundation */
-  max-width: var(--container);
+  max-width: var(--app-max-width);
   display: grid;
   place-items: center;
   margin: auto;

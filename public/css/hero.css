@@ -1,0 +1,50 @@
+.hero {
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  padding: var(--app-padding);
+
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero__content_box {
+  width: 100%;
+  max-width: var(--app-max-width);
+  margin: 20rem auto;
+}
+
+.hero div h1 {
+  margin: 0;
+}
+
+.hero__links {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.hero__links img {
+  width: 36px;
+  transition: width 0.3s ease;
+}
+
+.hero__links img:hover {
+  width: 44px;
+}
+
+/* variations  */
+.hero--manifesto__content_box {
+  width: 100%;
+  max-width: var(--app-max-width);
+  margin: 10rem auto;
+}
+
+.hero__text_box {
+  padding: 1rem;
+  border-radius: 1rem;
+
+  background-color: #ffffffa6;
+}
