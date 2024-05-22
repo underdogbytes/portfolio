@@ -32,7 +32,7 @@ class PortfolioController extends Controller
                 $breadcrumb = [
                     ['name' => 'Home', 'url' => '/'],
                     ['name' => 'Portfolio', 'url' => '/portfolio'],
-                    ['name' => $project['name'], 'url' => $project['slug']],
+                    ['name' => $project['head']['name'], 'url' => $project['slug']],
                 ];
                 break;
             }
