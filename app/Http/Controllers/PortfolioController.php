@@ -24,6 +24,7 @@ class PortfolioController extends Controller
         $projects = json_decode($projectsJson, true);
 
         $project = null;
+
         foreach($projects as $item){
             if($item['slug'] == $slug){
                 $project = $item;

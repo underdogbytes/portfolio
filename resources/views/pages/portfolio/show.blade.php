@@ -16,8 +16,10 @@
     </div>
 
     {{-- projects links --}}
+    @if(isset($project['links']))
     <div class="portfolio__links_box">
-      @if($project['links']['prod'])
+
+      @if(isset($project['links']['prod']) && $project['links']['prod'])
       <a href="{{ $project['links']['prod'] }}" target="_blank">
         <button class="btn__icon-text">
           <img src="{{ asset('icons/eye-white.svg') }}" alt="Ícone de olho aberto" width="30">
@@ -26,7 +28,7 @@
       </a>
       @endif
 
-      @if($project['links']['gitRepo'])
+      @if(isset($project['links']['gitRepo']) && $project['links']['gitRepo'])
       <a href="{{ $project['links']['gitRepo'] }}" target="_blank">
         <button class="btn__icon-text">
           <img src="{{ asset('icons/git-white.svg') }}" alt="Logo Git" width="30">
@@ -36,7 +38,7 @@
       @endif
 
 
-      @if($project['links']['behance'])
+      @if(isset($project['links']['behance']) && $project['links']['behance'])
       <a href="{{ $project['links']['behance'] }}" target="_blank">
         <button class="btn__icon-text">
           <img src="{{ asset('icons/behance-white.svg') }}" alt="Logo Behance" width="30">
@@ -45,6 +47,7 @@
       </a>
       @endif
     </div>
+    @endif
   </div>
 </section>
 @endsection
