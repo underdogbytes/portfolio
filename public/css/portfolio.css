@@ -1,0 +1,6 @@
+.portfolio__links_box {
+  margin: 2rem auto;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}

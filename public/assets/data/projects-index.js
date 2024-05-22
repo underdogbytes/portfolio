@@ -4,15 +4,15 @@
     "imgUrl": "assets/projects/sorla-db/square.png"
   },
   {
-    "link": "https://www.behance.net/gallery/169279411/-social-media-post-Autismo-em-mulheres",
+    "link": "autismo-em-mulheres",
     "imgUrl": "assets/projects/autismo-em-mulheres/square.png"
   },
   {
-    "link": "https://www.behance.net/gallery/135370153/-App-UI-Mais-Futuro-(private-pension)",
+    "link": "mais-futuro",
     "imgUrl": "assets/projects/mais-futuro/square.png"
   },
   {
-    "link": "",
+    "link": "pantera-motors",
     "imgUrl": "assets/projects/pantera-motors/square.png"
   },
   {
@@ -20,11 +20,11 @@
     "imgUrl": "assets/projects/escola-renovacao/square.png"
   },
   {
-    "link": "",
+    "link": "fauna-do-brasil",
     "imgUrl": "assets/projects/colecoes-fauna-do-brasil/square.png"
   },
   {
-    "link": "",
+    "link": "show-gospel",
     "imgUrl": "assets/projects/show-gospel/square.png"
   }
 ]

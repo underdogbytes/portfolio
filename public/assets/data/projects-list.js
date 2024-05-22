@@ -18,5 +18,36 @@
       "prod": ""
     },
     "tags": "landingPage"
+  },
+  {
+    "slug": "autismo-em-mulheres",
+    "name": "Autismo em Mulheres",
+    "description": "Conteúdo de Instagram criado para conscientização sobre autismo em mulheres utilizando as artes do jogo Don't Starve Together como ilustrações.",
+    "links": {
+      "behance": "https://www.behance.net/gallery/169279411/-social-media-post-Autismo-em-mulheres",
+      "prod": ""
+    },
+    "tags": "socialMedia"
+  },
+  {
+    "slug": "mais-futuro",
+    "name": "Mais Futuro",
+    "description": "Trabalho desenvolvido entre agosto de 2020 à abril de 2022 na empresa Mais Futuro como Designer UI/UX e Desenvolvedora de Software.",
+    "links": {
+      "behance": "https://www.behance.net/gallery/135370153/-App-UI-Mais-Futuro-(private-pension)",
+      "prod": ""
+    },
+    "tags": "UIUX, development, mobile, desktop"
+  },
+  {
+    "slug": "teste",
+    "name": "Lorem ipsum",
+    "description": "Trabalho desenvolvido entre agosto de 2020 à abril de 2022 na empresa Mais Futuro como Designer UI/UX e Desenvolvedora de Software.",
+    "links": {
+      "behance": "https://www.behance.net/gallery/135370153/-App-UI-Mais-Futuro-(private-pension)",
+      "prod": "asdfsgh",
+      "gitRepo": "asdasd"
+    },
+    "tags": "UIUX, development, mobile, desktop"
   }
 ]

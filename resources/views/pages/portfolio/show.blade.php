@@ -5,17 +5,44 @@
   <x-utils.breadcrumb :breads="$breads" />
 
   <div>
-    <h2>{{ $project['name'] }}</h2>
-
+    {{-- Header: name & description --}}
     <div>
-      <p>{{ $project['description'] }}</p>
+      <h2>{{ $project['name'] }}</h2>
+      <p>
+        <b>Sobre o projeto:</b>
+        <br>
+        {{ $project['description'] }}
+      </p>
+    </div>
 
+    {{-- projects links --}}
+    <div class="portfolio__links_box">
       @if($project['links']['prod'])
-      Em ambiente de produção: <a href="{{ $project['links']['prod'] }}" target="_blank">ver projeto</a>
+      <a href="{{ $project['links']['prod'] }}" target="_blank">
+        <button class="btn__icon-text">
+          <img src="{{ asset('icons/eye-white.svg') }}" alt="Ícone de olho aberto" width="30">
+          Projeto em produção
+        </button>
+      </a>
       @endif
 
+      @if($project['links']['gitRepo'])
+      <a href="{{ $project['links']['gitRepo'] }}" target="_blank">
+        <button class="btn__icon-text">
+          <img src="{{ asset('icons/git-white.svg') }}" alt="Logo Git" width="30">
+          Repositório do projeto
+        </button>
+      </a>
+      @endif
+
+
       @if($project['links']['behance'])
-      Behance: <a href="{{ $project['links']['behance'] }}" target="_blank">ver projeto</a>
+      <a href="{{ $project['links']['behance'] }}" target="_blank">
+        <button class="btn__icon-text">
+          <img src="{{ asset('icons/behance-white.svg') }}" alt="Logo Behance" width="30">
+          Projeto no Behance
+        </button>
+      </a>
       @endif
     </div>
   </div>
