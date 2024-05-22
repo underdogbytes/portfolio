@@ -4,18 +4,42 @@
 <section class="container mt-10">
   <x-utils.breadcrumb :breads="$breads" />
 
-  <div>
-    {{-- Header: name & description --}}
+  {{-- Header --}}
+  <div class="portfolio__header-info">
     <div>
       <h2>{{ $project['name'] }}</h2>
-      <p>
-        <b>Sobre o projeto:</b>
-        <br>
-        {{ $project['description'] }}
-      </p>
+      <b>Sobre o projeto:</b>
+      <br>
+      {{ $project['description'] }}
     </div>
 
-    {{-- projects links --}}
+    {{-- Cargo --}}
+    @if(isset($project['workedAs']))
+    <div>
+      <b>Cargo:</b>
+      <br>
+      @foreach($project['workedAs'] as $role)
+      <span>
+        {{ $role }} @if(!$loop->last),@endif
+      </span>
+      @endforeach
+    </div>
+    @endif
+
+    {{-- Tecnologias utilizadas --}}
+    @if(isset($project['techs']))
+    <div>
+      <b>Tecnologias utilizadas:</b>
+      <br>
+      @foreach($project['techs'] as $tech)
+      <span>
+        {{ $tech }}@if(!$loop->last),@endif
+      </span>
+      @endforeach
+    </div>
+    @endif
+
+    {{-- Links --}}
     @if(isset($project['links']))
     <div class="portfolio__links_box">
 
