@@ -7,10 +7,10 @@
             <span>Olá amigos!</span>
         </div>
         <div class="nav__links__box">
-            <a href="/">Home</a>
-            <a href="portfolio">Portfolio</a>
-            <a href="contato">Contato</a>
-            <a href="manifesto">≽^•⩊•^≼</a>
+            <a href="{{ url('/') }}">Home</a>
+            <a href="{{ url('/portfolio') }}">Portfolio</a>
+            <a href="{{ url('/contato') }}">Contato</a>
+            <a href="{{ url('/manifesto') }}">≽^•⩊•^≼</a>
         </div>
     </section>
 </nav>
