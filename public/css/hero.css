@@ -1,5 +1,5 @@
 .hero {
-  height: 100vh;
+  height: -webkit-fill-available;
   width: 100%;
 
   display: flex;
@@ -11,9 +11,13 @@
 }
 
 .hero__content_box {
-  width: 100%;
+  width: fit-content;
+  height: fit-content;
   max-width: var(--app-max-width);
-  margin: 20rem auto;
+  padding: 2rem;
+
+  background-color: #ffffff85;
+  border-radius: 1rem;
 }
 
 .hero div h1 {
@@ -32,7 +36,7 @@
 }
 
 .hero__links img:hover {
-  width: 44px;
+  width: 40px;
 }
 
 /* variations  */
@@ -47,4 +51,8 @@
   border-radius: 1rem;
 
   background-color: #ffffffa6;
+}
+
+.hero__btn {
+  margin-top: 2rem;
 }

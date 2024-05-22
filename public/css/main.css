@@ -1,6 +1,6 @@
 /* Main */
 main {
-  min-height: 80vh;
+  height: -webkit-fill-available;
   display: flex;
   align-items: center;
 }

@@ -25,7 +25,18 @@
           Principalmente se for pirataria de conhecimento.
           Dependendo do livro técnico ou artigo que tu precisa, se for comprar, tu tá fodido.
         </li>
+        <li>
+          Não complique a sua vida e a vida dos outros.
+          <br>
+          Respeite seus próprios limites e ajude o próximo quando for possível.
+        </li>
       </ul>
+
+      <p>
+        Nós somos animais sociais, precisamos uns dos outros para sobreviver.
+        Então bora tentar conviver em paz nessa caralha de planeta porque não têm muito pra onde correr.
+      </p>
+
       <p>
         É isso amigos,
         bebam awa e cuidem uns dos outros ♡

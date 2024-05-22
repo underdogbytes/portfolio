@@ -1,0 +1,21 @@
+:root {
+  --cv-links-hover: #d60606;
+}
+
+.cv__links_list {
+  list-style: circle;
+}
+
+.cv__links_list a {
+  font-weight: inherit;
+  transition: font-weight 0.3s ease;
+}
+
+.cv__links_list a:hover {
+  color: var(--cv-links-hover);
+  font-weight: 800;
+}
+
+.cv__links_list li {
+  margin: auto;
+}

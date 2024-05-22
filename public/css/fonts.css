@@ -1,8 +1,20 @@
 /* Imports */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root {
+  --link-color--hover: #d60606;
+  --font-weight--hover: 800;
+}
+
 /* 📝 Default template rules */
 a {
   text-decoration: none;
   color: inherit;
+  font-weight: inherit;
+  transition: font-weight 0.3s ease;
+}
+
+a:hover {
+  color: var(--link-color--hover);
+  font-weight: var(--font-weight--hover);
 }

@@ -9,6 +9,7 @@
 @import url('footer.css');
 
 /* Components */
+@import url('cv.css');
 @import url('card.css');
 @import url('hero.css');
 @import url('gallery.css');

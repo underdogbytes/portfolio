@@ -4,18 +4,14 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PagesController;
-
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider and all of them will
-| be assigned to the "web" middleware group. Make something great!
-|
-*/
+use App\Http\Controllers\PortfolioController;
 
 Route::get('/', [HomeController::class, 'index']);
+Route::get('contato', [PagesController::class, 'contato']);
+Route::get('cv', [PagesController::class, 'cv']);
 Route::get('manifesto', [PagesController::class, 'manifesto']);
-Route::get('portfolio', [PagesController::class, 'portfolio']);
+
+Route::controller(PortfolioController::class)->group(function(){
+  Route::get('portfolio', 'index');
+  Route::get('portfolio/{slug}', 'show');
+});
