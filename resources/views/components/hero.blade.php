@@ -15,10 +15,10 @@
             {{-- social links --}}
             <div class="hero__links">
                 <a href="github.com/underdogbytes/" target="_blank">
-                    <img src="{{asset('assets/images/icons/github.svg')}}" alt="github icon" />
+                    <img src="{{asset('images/icons/github.svg')}}" alt="github icon" />
                 </a>
                 <a href="https://www.linkedin.com/in/btrz/" target="_blank">
-                    <img src="{{asset('assets/images/icons/linkedin.svg')}}" alt="linkedin icon" />
+                    <img src="{{asset('images/icons/linkedin.svg')}}" alt="linkedin icon" />
                 </a>
             </div>
 

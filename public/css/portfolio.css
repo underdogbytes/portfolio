@@ -1,3 +1,11 @@
+.portfolio__banner {
+  height: 600px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .portfolio__header-info {
   display: grid;
   gap: 1rem;
@@ -8,4 +16,10 @@
   display: flex;
   gap: 1rem;
   justify-content: center;
+}
+
+.portfolio__proto_figma {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 100%;
+  min-height: 500px;
 }

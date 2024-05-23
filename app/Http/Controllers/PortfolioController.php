@@ -9,7 +9,7 @@ class PortfolioController extends Controller
 {
     public function index(){
 
-        $projectsJson = file_get_contents(public_path('assets/data/projects-index.js'));
+        $projectsJson = file_get_contents(public_path('data/projects-index.js'));
         $cleanedContent = preg_replace('/[\x00-\x1F\x7F]/', '', $projectsJson);
         $projects = json_decode($projectsJson, true);
 
@@ -20,7 +20,7 @@ class PortfolioController extends Controller
     public function store(Request $request){}
 
     public function show($slug){
-        $projectsJson = file_get_contents(public_path('assets/data/projects-list.js'));
+        $projectsJson = file_get_contents(public_path('data/projects-list.js'));
         $projects = json_decode($projectsJson, true);
 
         $project = null;

@@ -45,11 +45,18 @@ ul li {
 
 .container {
   max-width: var(--app-max-width);
-  width: 100%;
   padding: 2rem;
   margin: auto;
 }
 
 .mt-10 {
   margin-top: 10rem;
+}
+
+.m-5-auto {
+  margin: 5rem auto;
+}
+
+.breadcrumb {
+  margin: 1.5rem auto;
 }

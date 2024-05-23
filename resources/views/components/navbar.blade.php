@@ -2,7 +2,7 @@
     <section>
         <div class="nav__logo__box">
             <a href="manifesto">
-                <img src="{{asset('assets/images/logo/underdogbytes.svg')}}" alt="">
+                <img src="{{asset('images/logo/underdogbytes.svg')}}" alt="">
             </a>
             <span>Olá amigos!</span>
         </div>

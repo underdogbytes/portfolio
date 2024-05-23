@@ -2,6 +2,6 @@
 
 @section('content')
 
-<x-hero bg="{{asset('assets/images/backgrounds/dark-forest.jpg')}}" />
+<x-hero bg="{{asset('images/backgrounds/dark-forest.jpg')}}" />
 
 @endsection

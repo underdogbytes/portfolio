@@ -2,7 +2,7 @@
 
 @section('content')
 
-<section class="hero" style="background-image: url('{{asset('assets/images/backgrounds/dark-forest.jpg')}}')">
+<section class="hero" style="background-image: url('{{asset('images/backgrounds/dark-forest.jpg')}}')">
   {{-- content --}}
   <div class="hero--manifesto__content_box">
     {{-- manifesto --}}

@@ -12,6 +12,7 @@ nav {
   padding: var(--app-padding);
   padding-top: var(--navbar-padding-top);
   position: absolute;
+  top: 0;
 }
 
 nav section {

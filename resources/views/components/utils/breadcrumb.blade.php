@@ -1,5 +1,5 @@
 @props(['breads' => []])
-<div>
+<div class="breadcrumb">
     @foreach($breads as $bread)
     <a href="{{ $bread['url'] }}">{{ $bread['name'] }}</a>
     @if(!$loop->last)

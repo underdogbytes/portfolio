@@ -10,6 +10,10 @@
       "links": {
         "behance": "https://www.behance.net/gallery/191362951/-Website-UI-SorlaDB"
       }
+    },
+    "body": {
+      "mainBanner": "projects/sorla-db/main-banner.png",
+      "figmaPrototype": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FnhI2f3iMiTrWBjnwwT8fsp%2FSorla-DB%3Fpage-id%3D0%253A1%26node-id%3D12-358%26viewport%3D15%252C561%252C0.15%26t%3D4yJ6Rbi8Hqt9uAah-1%26scaling%3Dscale-down"
     }
   },
   {
@@ -23,6 +27,9 @@
       "links": {
         "behance": "https://www.behance.net/gallery/169279411/-social-media-post-Autismo-em-mulheres"
       }
+    },
+    "body": {
+      "mainBanner": "projects/autismo-em-mulheres/main-banner.png"
     }
   },
   {
@@ -36,6 +43,9 @@
       "links": {
         "behance": "https://www.behance.net/gallery/135370153/-App-UI-Mais-Futuro-(private-pension)"
       }
+    },
+    "body": {
+      "mainBanner": "projects/mais-futuro/main-banner.png"
     }
   },
   {
@@ -49,6 +59,9 @@
       "links": {
         "prod": "https://www.escolarenovacao.com.br"
       }
+    }, "body": {
+      "mainBanner": "projects/escola-renovacao/main-banner.png",
+      "figmaPrototype": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FyRgX0vcpUMWpO3SXM5esfX%2Frenova%25C3%25A7%25C3%25A3o%3Fpage-id%3D0%253A1%26node-id%3D1-8%26viewport%3D447%252C367%252C0.07%26t%3DSIcllo0hIrq7BaKn-1%26scaling%3Dmin-zoom"
     }
   },
   {
@@ -59,6 +72,10 @@
       "tags": ["E-commerce"],
       "techs": ["Figma", "Photoshop"],
       "workedAs": ["Designer UI/UX"]
+    },
+    "body": {
+      "mainBanner": "projects/pantera-motors/main-banner.png",
+      "figmaPrototype": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FFumDsmc9b0Yh7hJ7iWXXm2%2FRecife-Carros---Pantera-Motors%3Fpage-id%3D9%253A4%26node-id%3D10-9%26viewport%3D701%252C266%252C0.07%26t%3DGzU7i98L8dFpUamh-1%26scaling%3Dscale-down%26starting-point-node-id%3D10%253A9"
     }
   },
   {
@@ -67,7 +84,13 @@
       "name": "Fauna do Brasil",
       "description": "E-commerce de loja de bichinhos de pelúcia.",
       "techs": ["PHP", "OpenCart"],
-      "workedAs": ["Developer"]
+      "workedAs": ["Developer"],
+      "links": {
+        "prod": "https://faunadobrasil.com.br"
+      }
+    },
+    "body": {
+      "mainBanner": "projects/colecoes-fauna-do-brasil/main-banner.png"
     }
   },
   {
@@ -78,6 +101,9 @@
       "tags": ["Blog"],
       "techs": ["PHP", "Laravel"],
       "workedAs": ["Developer"]
+    },
+    "body": {
+      "mainBanner": "projects/show-gospel/main-banner.png"
     }
   }
 ]
