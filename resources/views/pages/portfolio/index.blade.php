@@ -1,14 +1,12 @@
 @extends('template.index')
 
 @section('content')
-
-<div class="container mt-10">
-  <div>
+<section class="header-box">
+  <div class="header-box__title">
     <h1>Portfolio</h1>
   </div>
 
   <div class="portfolio__gallery">
-
     @if($projects)
     @foreach($projects as $project)
     <x-portfolio.gallery-item link="{{ url('/')}}/portfolio/{{$project['link']}}"
@@ -16,5 +14,5 @@
     @endforeach
     @endif
   </div>
-</div>
+</section>
 @endsection

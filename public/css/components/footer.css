@@ -1,5 +1,9 @@
 /* Footer  */
 /* 🏗️ Foundation */
+footer {
+  margin-top: 5rem;
+}
+
 footer > div {
   max-width: var(--app-max-width);
   display: grid;

@@ -2,6 +2,7 @@
 
 @section('content')
 
-<x-hero bg="{{asset('images/backgrounds/dark-forest.jpg')}}" />
+<x-about.intro />
+<x-portfolio.BestProjects />
 
 @endsection

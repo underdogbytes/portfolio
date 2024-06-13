@@ -23,3 +23,14 @@ body {
   font-size: var(--font-size);
   color: var(--font-color);
 }
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: darkred;
+  background-color: #ff8686a7;
+}
+
+::selection {
+  color: darkred;
+  background-color: #ff8686a7;
+}

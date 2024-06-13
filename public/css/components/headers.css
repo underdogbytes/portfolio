@@ -1,0 +1,23 @@
+.header-box {
+  margin: 10rem 2rem;
+}
+
+.header-box__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+
+  border-bottom: 1px solid grey;
+}
+
+.header-box__title h1 {
+  margin-bottom: 0.8rem;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 1400px) {
+  .header-box {
+    max-width: 80%;
+    margin: 10rem auto;
+  }
+}

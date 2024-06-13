@@ -10,7 +10,7 @@
             <a href="{{ url('/') }}">Home</a>
             <a href="{{ url('/portfolio') }}">Portfolio</a>
             <a href="{{ url('/contato') }}">Contato</a>
-            <a href="{{ url('/manifesto') }}">≽^•⩊•^≼</a>
+            <a href="{{ url('/apoio') }}">≽^•⩊•^≼</a>
         </div>
     </section>
 </nav>

@@ -3,15 +3,9 @@
 @import url('fonts.css');
 
 /* Main template */
-@import url('navbar.css');
-@import url('body.css');
-@import url('main.css');
-@import url('footer.css');
+@import url('base.css');
 
 /* Components */
-@import url('cv.css');
-@import url('card.css');
-@import url('hero.css');
-@import url('gallery.css');
+@import url('./components/index.css');
 
-@import url('portfolio.css');
+/* Pages */

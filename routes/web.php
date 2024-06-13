@@ -10,6 +10,7 @@ Route::get('/', [HomeController::class, 'index']);
 Route::get('contato', [PagesController::class, 'contato']);
 Route::get('cv', [PagesController::class, 'cv']);
 Route::get('manifesto', [PagesController::class, 'manifesto']);
+Route::get('apoio', [PagesController::class, 'apoio']);
 
 Route::controller(PortfolioController::class)->group(function(){
   Route::get('portfolio', 'index');

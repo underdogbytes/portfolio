@@ -1,0 +1,26 @@
+.intro-about-me__content {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 2rem 0;
+}
+
+.intro-about-me__img {
+  width: auto;
+  max-height: 400px;
+  filter: saturate(0);
+
+  transition: ease 0.2s filter;
+}
+
+.intro-about-me__img:hover {
+  filter: saturate(1);
+}
+
+@media screen and (min-width: 1400px) {
+  .intro-about-me__content {
+    max-width: 80%;
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+  }
+}

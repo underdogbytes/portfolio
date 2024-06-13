@@ -1,15 +1,14 @@
 @extends('template.index')
 
 @section('content')
-<section class="container">
-  <h1>Contato</h1>
+<section class="header-box">
+  <div class="header-box__title">
+    <h1>Contato</h1>
+  </div>
 
   <div>
-    <p>
-      Para serviços ou dizer um oi,
-      entre em contato pelo e-mail abaixo:
-    </p>
-    <a href="mailto:underdogbytes@gmail.com">underdogbytes@gmail.com</a>
+    <p>Para trabalho ou dizer um oi, me manda um e-mail:</p>
+    <a href="mailto:underdogbytes@gmail.com">📧 underdogbytes@gmail.com</a>
   </div>
 </section>
 @endsection
