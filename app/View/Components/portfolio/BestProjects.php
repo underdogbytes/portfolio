@@ -9,9 +9,18 @@ use Illuminate\View\Component;
 class BestProjects extends Component
 {
     public $projects;
-    
+
     public function __construct($projects = [])
     {
+        $this->projects = $this->loadProjects();
+    }
+
+    public function render(): View|string
+    {
+        return view('components.portfolio.best-projects', ['projects' => $this->projects]);
+    }
+
+    public function loadProjects(){
         try {
             // Tente ler o arquivo JSON
             $projectsJson = File::get(public_path('data/best-projects.js'));
@@ -25,15 +34,12 @@ class BestProjects extends Component
                 throw new \Exception('Erro ao decodificar JSON em BestProjects: ' . json_last_error_msg());
             }
 
-            $this->projects = $projects;
+            $result = $projects;
         } catch (\Exception $e) {
             \Log::error('Erro ao ler o arquivo JSON em BestProjects: ' . $e->getMessage());
-            $this->projects = [];
+            $result = [];
         }
-    }
 
-    public function render(): View|string
-    {
-        return view('components.portfolio.best-projects');
+        return $result;
     }
 }
