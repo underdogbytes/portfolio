@@ -19,6 +19,6 @@ class BestProjects extends Component
         $cleanedContent = preg_replace('/[\x00-\x1F\x7F]/', '', $projectsJson);
         $projects = json_decode($projectsJson, true);
 
-        return view('components.portfolio.best', ['projects'=> $projects]);
+        return view('components.portfolio.best-projects', ['projects'=> $projects]);
     }
 }
