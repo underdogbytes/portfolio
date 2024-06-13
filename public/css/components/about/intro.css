@@ -5,7 +5,8 @@
 }
 
 .intro-about-me__img {
-  width: auto;
+  width: 100%;
+  height: auto;
   max-height: 400px;
   filter: saturate(0);
 
