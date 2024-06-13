@@ -6,11 +6,9 @@ use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class bestProjects extends Component
+class BestProjects extends Component
 {
-    public $projects;
-
-    public function __construct($projects)
+    public function __construct()
     {
         //
     }
