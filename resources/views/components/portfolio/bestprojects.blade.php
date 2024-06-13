@@ -5,7 +5,7 @@
     </div>
 
     <div class="portfolio__gallery">
-        @if($projects)
+        @if(!empty($projects))
         @foreach($projects as $project)
         <div>
             <x-portfolio.gallery-item link="{{ url('/')}}/portfolio/{{$project['link']}}"
