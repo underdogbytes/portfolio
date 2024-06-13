@@ -10,7 +10,7 @@ class bestProjects extends Component
 {
     public $projects;
 
-    public function __construct()
+    public function __construct($projects)
     {
         //
     }
