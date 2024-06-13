@@ -8,6 +8,8 @@ use Illuminate\View\Component;
 
 class BestProjects extends Component
 {
+    public $projects;
+
     public function __construct()
     {
         //
@@ -18,7 +20,6 @@ class BestProjects extends Component
         $projectsJson = file_get_contents(public_path('data/best-projects.js'));
         $cleanedContent = preg_replace('/[\x00-\x1F\x7F]/', '', $projectsJson);
         $projects = json_decode($projectsJson, true);
-
-        return view('components.portfolio.BestProjects', ['projects'=> $projects]);
+        return view('components.portfolio.best-projects', ['projects'=> $projects]);
     }
 }
