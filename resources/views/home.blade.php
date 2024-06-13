@@ -3,6 +3,6 @@
 @section('content')
 
 <x-about.intro />
-<x-portfolio.bestProjects />
+<x-portfolio.BestProjects />
 
 @endsection
