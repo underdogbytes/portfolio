@@ -43,6 +43,41 @@ nav section {
   display: none;
 }
 
+.navbar__icon {
+  width: 1.5rem;
+  height: 1.5rem;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  transition: opacity 0.2s ease;
+}
+
+.navbar__icon:hover {
+  opacity: .5;
+}
+
+.navbar__icon--linkedin {
+  background-image: url('../../icons/black/linkedin.svg');
+}
+
+.navbar__icon--behance {
+  background-image: url('../../icons/black/behance.svg');
+}
+
+.navbar__icon--instagram {
+  background-image: url('../../icons/black/instagram.svg');
+}
+
+.navbar__icon--patreon {
+  background-image: url('../../icons/black/patreon.svg');
+}
+
+.navbar__icon--github {
+  background-image: url('../../icons/black/github.svg');
+}
+
 @media screen and (min-width: 1200px) {
   .nav__links__box {
     display: flex;
