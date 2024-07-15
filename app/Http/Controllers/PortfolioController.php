@@ -25,7 +25,9 @@ class PortfolioController extends Controller
 
         $project = null;
 
-        foreach($projects as $item){
+        $total_projects = count($projects);
+
+        foreach($projects as $key => $item){
             if($item['slug'] == $slug){
                 $project = $item;
 
@@ -34,11 +36,20 @@ class PortfolioController extends Controller
                     ['name' => 'Portfolio', 'url' => '/portfolio'],
                     ['name' => $project['head']['name'], 'url' => $project['slug']],
                 ];
+
+                $nextProject = $key == $total_projects ? $projects[$key+1]['slug'] : $projects[0]['slug'];
+                $lastProject = $key != 0 ? $projects[$key-1]['slug'] : $projects[$total_projects-1]['slug'];
+
                 break;
             }
         }
 
-        return ($project) ? view('pages.portfolio.show', ['project'=> $project, 'breads' => $breadcrumb]) : abort(404, 'Projeto não encontrado');
+        return ($project) ? view('pages.portfolio.show', [
+            'project'=> $project,
+            'breads' => $breadcrumb,
+            'nextProject' => $nextProject,
+            'lastProject' => $lastProject
+        ]) : abort(404, 'Projeto não encontrado');
     }
 
     public function edit(Portfolio $portfolio){}

@@ -47,6 +47,12 @@
       <iframe class="portfolio__proto_figma" src="{{ $project['body']['figmaPrototype']}}" allowfullscreen></iframe>
     </div>
     @endif
+
+    {{-- LAST AND NEXT PROJECTS --}}
+    <div style="display: flex; justify-content: center; gap: 2rem;">
+      <a href="{{ $lastProject }}"><< Projeto anterior</a>
+      <a href="{{ $nextProject }}">Próximo projeto >></a>
+    </div>
   </div>
   
 </section>
