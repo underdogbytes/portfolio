@@ -7,7 +7,7 @@
 .intro-about-me__img {
   width: 100%;
   height: auto;
-  max-height: 400px;
+  aspect-ratio: 1/1;
   filter: saturate(0);
 
   transition: ease 0.2s filter;
@@ -19,9 +19,9 @@
 
 @media screen and (min-width: 1400px) {
   .intro-about-me__content {
-    max-width: 80%;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem 0;
     gap: 3rem;
   }
 }

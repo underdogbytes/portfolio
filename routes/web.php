@@ -8,6 +8,7 @@ use App\Http\Controllers\PortfolioController;
 
 Route::get('/', [HomeController::class, 'index']);
 Route::get('contato', [PagesController::class, 'contato']);
+Route::get('sobre', [PagesController::class, 'sobre']);
 Route::get('cv', [PagesController::class, 'cv']);
 Route::get('manifesto', [PagesController::class, 'manifesto']);
 Route::get('apoio', [PagesController::class, 'apoio']);
