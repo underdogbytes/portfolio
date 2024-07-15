@@ -25,11 +25,29 @@
       "techs": ["Canva"],
       "workedAs": ["Designer"],
       "links": {
-        "behance": "https://www.behance.net/gallery/169279411/-social-media-post-Autismo-em-mulheres"
+        "behance": "https://www.behance.net/gallery/169279411/-social-media-post-Autismo-em-mulheres",
+        "prod": "https://www.instagram.com/p/CrhJrwYOWaQ/?img_index=1"
       }
     },
     "body": {
-      "mainBanner": "projects/autismo-em-mulheres/main-banner.png"
+      "mainBanner": "projects/autismo-em-mulheres/main-banner.png",
+      "research": {
+        "title": "01. Pesquisa",
+        "text": "Para a pesquisa os principais artigos que basearam a criação do conteúdo foram: <ul><li>autism.org.uk/advice-and-guidance/what-is-autism/autistic-women-and-girls</li><li>med.stanford.edu/news/all-news/2022/02/autism-brain-sex-differences.html</li></ul>"
+      },
+      "layout": {
+        "title": "02. Definição de Layout",
+        "text": "Com a pesquisa em mãos e uma rede social escolhida (instagram), optei por criar um carousel para comportar melhor o texto sobre mascaramento e esteriótipos; além de um último para colocar as referências."
+      },
+      "result": {
+        "title": "03. Projeto finalizado",
+        "imgs" : [
+          "projects/autismo-em-mulheres/01.png",
+          "projects/autismo-em-mulheres/02.png",
+          "projects/autismo-em-mulheres/03.png",
+          "projects/autismo-em-mulheres/04.png"
+        ]
+      }
     }
   },
   {
