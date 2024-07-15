@@ -35,9 +35,6 @@
         <a href="https://www.instagram.com/lightandbrush/">Mel Duck: Fotográfa e Copywriter</a>
       </li>
       <li>
-        <a href="https://www.behance.net/FabioJuniorMedeiros">Fábio Junior: Artista e Designer</a>
-      </li>
-      <li>
         <a href="https://www.instagram.com/ketkbarros/">Ketlyn Kwiatkovski: Gerente de Projetos</a>
       </li>
       <li>
