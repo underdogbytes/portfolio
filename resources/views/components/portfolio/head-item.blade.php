@@ -5,11 +5,46 @@
         <br>
         {{ $info['description'] }}
     </div>
+    {{-- Links --}}
+    @if(isset($info['links']))
+    <div>
+        <b>Links:</b>
+        <ul>
+            @if(isset($info['links']['prod']) && $info['links']['prod'])
+            <li>
+                Em ambiente de produção:
+                <a href="{{ $info['links']['prod'] }}" target="_blank">
+                    {{ $info['links']['prod'] }}
+                </a>
+            </li>
+            @endif
+            
+            @if(isset($info['links']['gitRepo']) && $info['links']['gitRepo'])
+            <li>
+                Github:
+                <a href="{{ $info['links']['gitRepo'] }}" target="_blank">
+                    {{ $info['links']['gitRepo'] }}
+                </a>
+            </li>
+            @endif
+            
+            
+            @if(isset($info['links']['behance']) && $info['links']['behance'])
+            <li>
+                Behance:
+                <a href="{{ $info['links']['behance'] }}" target="_blank">
+                    {{ $info['links']['behance'] }}
+                </a>
+            </li>
+            @endif
+        </ul>
+    </div>
+    @endif
 
     {{-- Cargo --}}
-    @if(isset($info['workedAs']))
+    {{-- @if(isset($info['workedAs']))
     <div>
-        <b>Cargo:</b>
+        <b>Área de atuação:</b>
         <br>
         @foreach($info['workedAs'] as $role)
         <span>
@@ -17,10 +52,10 @@
         </span>
         @endforeach
     </div>
-    @endif
+    @endif --}}
 
     {{-- Tecnologias utilizadas --}}
-    @if(isset($info['techs']))
+    {{-- @if(isset($info['techs']))
     <div>
         <b>Tecnologias utilizadas:</b>
         <br>
@@ -30,39 +65,5 @@
         </span>
         @endforeach
     </div>
-    @endif
-
-    {{-- Links --}}
-    @if(isset($info['links']))
-    <div class="portfolio__links_box">
-
-        @if(isset($info['links']['prod']) && $info['links']['prod'])
-        <a href="{{ $info['links']['prod'] }}" target="_blank">
-            <button class="btn__icon-text">
-                <img src="{{ asset('icons/eye-white.svg') }}" alt="Ícone de olho aberto" width="30">
-                Projeto em produção
-            </button>
-        </a>
-        @endif
-
-        @if(isset($info['links']['gitRepo']) && $info['links']['gitRepo'])
-        <a href="{{ $info['links']['gitRepo'] }}" target="_blank">
-            <button class="btn__icon-text">
-                <img src="{{ asset('icons/git-white.svg') }}" alt="Logo Git" width="30">
-                Repositório do projeto
-            </button>
-        </a>
-        @endif
-
-
-        @if(isset($info['links']['behance']) && $info['links']['behance'])
-        <a href="{{ $info['links']['behance'] }}" target="_blank">
-            <button class="btn__icon-text">
-                <img src="{{ asset('icons/behance-white.svg') }}" alt="Logo Behance" width="30">
-                Projeto no Behance
-            </button>
-        </a>
-        @endif
-    </div>
-    @endif
+    @endif --}}
 </div>
