@@ -1,7 +1,7 @@
 <footer>
     <div>
 
-        <a href="https://github.com/tocrossbridge">
+        <a href="https://github.com/underdogbytes">
             Underdog Bytes - 2024
         </a>
         <p>
