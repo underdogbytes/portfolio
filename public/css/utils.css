@@ -40,7 +40,7 @@ h1 {
 }
 
 ul li {
-  margin: 2rem;
+  margin: 0 2rem 2rem 2rem;
 }
 
 .container {
@@ -55,6 +55,11 @@ ul li {
 
 .m-5-auto {
   margin: 5rem auto;
+}
+
+
+ul {
+  padding: 0;
 }
 
 .breadcrumb {
