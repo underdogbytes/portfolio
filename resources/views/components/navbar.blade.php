@@ -8,6 +8,7 @@
         </div>
         <div class="nav__links__box">
             <a href="{{ url('/') }}">Home</a>
+            <a href="{{ url('/sobre') }}">Sobre</a>
             <a href="{{ url('/portfolio') }}">Portfolio</a>
             <a href="{{ url('/contato') }}">Contato</a>
             <a href="{{ url('https://www.linkedin.com/in/btrz/') }}" target="_blank">
