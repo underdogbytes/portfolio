@@ -12,7 +12,7 @@
       }
     },
     "body": {
-      "mainBanner": "projects/sorla-db/main-banner.png",
+      "mainBanner": "images/projects/sorla-db/main-banner.png",
       "figmaPrototype": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FnhI2f3iMiTrWBjnwwT8fsp%2FSorla-DB%3Fpage-id%3D0%253A1%26node-id%3D12-358%26viewport%3D15%252C561%252C0.15%26t%3D4yJ6Rbi8Hqt9uAah-1%26scaling%3Dscale-down"
     }
   },
@@ -30,7 +30,7 @@
       }
     },
     "body": {
-      "mainBanner": "projects/autismo-em-mulheres/main-banner.png",
+      "mainBanner": "images/projects/autismo-em-mulheres/main-banner.png",
       "research": {
         "title": "01. Pesquisa",
         "text": "Para a pesquisa os principais artigos que basearam a criação do conteúdo foram: <ul><li>autism.org.uk/advice-and-guidance/what-is-autism/autistic-women-and-girls</li><li>med.stanford.edu/news/all-news/2022/02/autism-brain-sex-differences.html</li></ul>"
@@ -42,10 +42,10 @@
       "result": {
         "title": "03. Projeto finalizado",
         "imgs" : [
-          "projects/autismo-em-mulheres/01.png",
-          "projects/autismo-em-mulheres/02.png",
-          "projects/autismo-em-mulheres/03.png",
-          "projects/autismo-em-mulheres/04.png"
+          "images/projects/autismo-em-mulheres/01.png",
+          "images/projects/autismo-em-mulheres/02.png",
+          "images/projects/autismo-em-mulheres/03.png",
+          "images/projects/autismo-em-mulheres/04.png"
         ]
       }
     }
@@ -63,7 +63,7 @@
       }
     },
     "body": {
-      "mainBanner": "projects/mais-futuro/main-banner.png"
+      "mainBanner": "images/projects/mais-futuro/main-banner.png"
     }
   },
   {
@@ -78,7 +78,7 @@
         "prod": "https://www.escolarenovacao.com.br"
       }
     }, "body": {
-      "mainBanner": "projects/escola-renovacao/main-banner.png",
+      "mainBanner": "images/projects/escola-renovacao/main-banner.png",
       "figmaPrototype": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FyRgX0vcpUMWpO3SXM5esfX%2Frenova%25C3%25A7%25C3%25A3o%3Fpage-id%3D0%253A1%26node-id%3D1-8%26viewport%3D447%252C367%252C0.07%26t%3DSIcllo0hIrq7BaKn-1%26scaling%3Dmin-zoom"
     }
   },
@@ -92,7 +92,7 @@
       "workedAs": ["Designer UI/UX"]
     },
     "body": {
-      "mainBanner": "projects/pantera-motors/main-banner.png",
+      "mainBanner": "images/projects/pantera-motors/main-banner.png",
       "figmaPrototype": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FFumDsmc9b0Yh7hJ7iWXXm2%2FRecife-Carros---Pantera-Motors%3Fpage-id%3D9%253A4%26node-id%3D10-9%26viewport%3D701%252C266%252C0.07%26t%3DGzU7i98L8dFpUamh-1%26scaling%3Dscale-down%26starting-point-node-id%3D10%253A9"
     }
   },
@@ -108,7 +108,7 @@
       }
     },
     "body": {
-      "mainBanner": "projects/colecoes-fauna-do-brasil/main-banner.png"
+      "mainBanner": "images/projects/colecoes-fauna-do-brasil/main-banner.png"
     }
   },
   {
@@ -121,7 +121,7 @@
       "workedAs": ["Developer"]
     },
     "body": {
-      "mainBanner": "projects/show-gospel/main-banner.png"
+      "mainBanner": "images/projects/show-gospel/main-banner.png"
     }
   }
 ]

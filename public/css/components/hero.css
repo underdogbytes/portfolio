@@ -1,5 +1,6 @@
 .hero {
   height: -webkit-fill-available;
+  min-height: 100vh;
   width: 100%;
 
   display: flex;
@@ -16,12 +17,12 @@
   max-width: var(--app-max-width);
   padding: 2rem;
 
-  background-color: #ffffff85;
   border-radius: 1rem;
 }
 
 .hero div h1 {
   margin: 0;
+  width: fit-content;
 }
 
 .hero__links {
@@ -40,10 +41,21 @@
 }
 
 /* variations  */
-.hero--manifesto__content_box {
+.hero--home__content {
   width: 100%;
-  max-width: var(--app-max-width);
-  margin: 10rem auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding: 10rem 2rem 2rem 2rem;
+}
+
+.hero--home__content > * {
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+}
+.hero--home__content > img {
+  max-width: 100%;
+  max-width: -webkit-fill-available;
 }
 
 .hero__text_box {
@@ -55,4 +67,20 @@
 
 .hero__btn {
   margin-top: 2rem;
+}
+
+
+@media screen and (min-width: 1000px) {
+  .hero {
+    height: 70vh;
+  }
+  .hero--home {
+    min-height: auto;
+    height: auto;
+  }
+  .hero--home__content {
+    max-width: var(--app-max-width);
+    padding: 5rem 2rem 0 2rem;
+    margin: auto;
+  }
 }

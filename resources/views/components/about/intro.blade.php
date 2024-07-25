@@ -15,17 +15,18 @@
       </h2>
       <p>
         Underdog é uma gíria gringa para perdedor esperado,
-        aquele que tu só apostarias as fichas da vitória se estivesse com a sanidade comprometida
+        aquele que apostariam se estivessem com a sanidade comprometida
         ou em um belo dia para ver dinheiro queimar.
       </p>
       <p>
-        Nós vivemos em uma renascença de produtividade, onde cada respiro é uma propaganda
+        Vivemos em uma renascença de produtividade, onde cada respiro é uma propaganda
         e os limites entre pessoa física e jurídica estão cada vez mais nebulosos.
-        Portanto, Bytes é o apelido da pessoa física (Beatriz Lima), o underdog que vos escreve.
+        <b>Bytes</b> é o apelido da pessoa física (Beatriz Lima), o underdog que vos escreve.
+        A união das duas palavras, carrega meu nome de pessoa jurídica: Underdog Bytes.
       </p>
 
       <p>
-        Recebi meu nome em homenagem a guia de Dante Alighieri.
+        Recebi meu nome em homenagem à guia de Dante Alighieri.
         Sou brasileira do estado das Araucárias e das capivaras, mais precisamente da montanha do Anhangava.
         Da classe proletária, trabalho como engenheira de software e designer UI/UX desde 2018.
         Inquieta, construo coisas e estou sempre ponderando sobre o jeito das coisas.

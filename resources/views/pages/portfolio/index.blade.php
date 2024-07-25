@@ -1,6 +1,7 @@
 @extends('template.index')
 
 @section('content')
+<div class="ghost"></div>
 <section class="header-box">
   <div class="header-box__title">
     <h1>Portfolio</h1>

@@ -26,7 +26,7 @@ button {
 }
 
 button:hover {
-  background-color: #212121;
+  opacity: 0.7;
 }
 
 .btn__icon-text {
@@ -36,7 +36,7 @@ button:hover {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 ul li {
@@ -64,4 +64,9 @@ ul {
 
 .breadcrumb {
   margin: 1.5rem auto;
+}
+
+.ghost {
+  height: 6rem;
+  width: 100%;
 }

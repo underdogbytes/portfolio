@@ -17,7 +17,7 @@ class HomeController extends Controller
 
     public function index()
     {
-        $projects = $this->projectService->loadProjects('data/best-projects.js');
-        return view('home', ['projects' => $projects]);
+        $highlights = $this->projectService->loadProjects('data/highlights.js');
+        return view('home', ['highlights' => $highlights]);
     }
 }

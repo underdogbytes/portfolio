@@ -14,3 +14,14 @@
   transition: filter 0.3s ease;
   width: 100%;
 }
+.portfolio__gallery__image--square {
+  height: 100%;
+}
+
+/* FEATURE: BLACK AND WHITE: */
+.portfolio__gallery__image.dark {
+  filter: saturate(0);
+}
+.portfolio__gallery__link:hover .portfolio__gallery__image.dark {
+  filter: saturate(1);
+}

@@ -2,6 +2,8 @@
 
 @section('content')
 
-<x-portfolio.best-projects :projects="$projects" />
+<x-home.hero />
+
+<x-portfolio.highlights :highlights="$highlights" />
 
 @endsection

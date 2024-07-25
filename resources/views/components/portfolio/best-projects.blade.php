@@ -1,12 +1,8 @@
 <section class="header-box">
     <div class="header-box__title">
-        <h1>underdogbytes</h1>
-        <p>Quando a <b>engenharia de software</b> se une ao <b>design</b></p>
+        <h1>portfolio</h1>
+        <p>Uma dose dos melhores projetos da casa</p>
     </div>
-
-    <p>
-        Uma dose dos melhores projetos da casa:
-    </p>
 
     <div class="portfolio__gallery">
         @if(!empty($projects))
