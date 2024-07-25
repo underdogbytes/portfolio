@@ -31,9 +31,12 @@
   @if(isset($project['body']['result']) && $project['body']['result'])
   <div class="m-5-auto">
     <h2>{{ $project['body']['result']['title'] }}</h2>
-    @foreach ($project['body']['result']['imgs'] as $img)
-      <img src={{ asset($img) }} width="250" />   
-    @endforeach
+
+    <div class="portfolio__gallery" style="margin-top: 1rem; gap: 0">
+      @foreach ($project['body']['result']['imgs'] as $img)
+        <x-portfolio.gallery-item imgUrl="{{asset($img)}}" class="portfolio__gallery__image--square" />
+        @endforeach
+    </div>
   </div>
   @endif
 
