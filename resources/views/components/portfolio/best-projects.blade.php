@@ -6,14 +6,16 @@
 
     <div class="portfolio__gallery">
         @if(!empty($projects))
-        @foreach($projects as $project)
+        @foreach($projects as $item)
         <div>
-            <x-portfolio.gallery-item link="{{ url('/')}}/portfolio/{{$project['link']}}"
-                imgUrl="{{asset($project['imgUrl'])}}" />
+            <x-portfolio.gallery-item
+                link="{{ route('portfolio.show', ['slug' => $item['link']]) }}"
+                imgUrl="{{ asset($item['imgUrl']) }}"
+            />
             <p>
                 <b>Sobre o que é o projeto?</b>
                 <br>
-                {{ $project['description'] }}
+                {{ $item['description'] }}
             </p>
         </div>
         @endforeach

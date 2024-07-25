@@ -9,9 +9,11 @@
 
   <div class="portfolio__gallery">
     @if($projects)
-    @foreach($projects as $project)
-    <x-portfolio.gallery-item link="{{ url('/')}}/portfolio/{{$project['link']}}"
-      imgUrl="{{asset($project['imgUrl'])}}" />
+    @foreach($projects as $item)
+    <x-portfolio.gallery-item
+      link="{{ $item['type'] }}/{{ $item['slug'] }}"
+      imgUrl="{{asset($item['imgUrl'])}}"
+    />
     @endforeach
     @endif
   </div>

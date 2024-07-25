@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PagesController;
 use App\Http\Controllers\PortfolioController;
+use App\Http\Controllers\ArtsController;
 
 Route::get('/', [HomeController::class, 'index']);
 Route::get('contato', [PagesController::class, 'contato']);
@@ -14,6 +15,11 @@ Route::get('manifesto', [PagesController::class, 'manifesto']);
 Route::get('apoio', [PagesController::class, 'apoio']);
 
 Route::controller(PortfolioController::class)->group(function(){
-  Route::get('portfolio', 'index');
-  Route::get('portfolio/{slug}', 'show');
+    Route::get('portfolio', 'index')->name('portfolio.index');
+    Route::get('projects/{slug}', 'show')->name('portfolio.show');
+});
+
+Route::controller(ArtsController::class)->group(function(){
+    Route::get('arts', 'index')->name('arts.index');
+    Route::get('arts/{slug}', 'show')->name('arts.show');
 });

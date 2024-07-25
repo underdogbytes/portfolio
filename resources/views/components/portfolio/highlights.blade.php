@@ -8,7 +8,7 @@
         @if(!empty($highlights))
         @foreach($highlights as $item)
             <x-portfolio.gallery-item
-                link="{{ url('/')}}/{{$item['link']}}"
+                link="{{ $item['type'] }}/{{ $item['slug'] }}"
                 imgUrl="{{asset($item['imgUrl'])}}"
                 class="portfolio__gallery__image--square dark"
             />

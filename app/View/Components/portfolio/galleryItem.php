@@ -8,7 +8,7 @@ use Illuminate\View\Component;
 
 class galleryItem extends Component
 {
-    public function __construct(public $imgUrl, public $link)
+    public function __construct(public $imgUrl, public $link = '')
     {
         //
     }

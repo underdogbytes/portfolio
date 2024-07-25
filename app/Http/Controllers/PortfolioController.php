@@ -37,7 +37,7 @@ class PortfolioController extends Controller
                     ['name' => $project['head']['name'], 'url' => $project['slug']],
                 ];
 
-                $nextProject = $key == $total_projects ? $projects[$key+1]['slug'] : $projects[0]['slug'];
+                $nextProject = ($key == $total_projects - 1) ? $projects[0]['slug'] : $projects[$key+1]['slug'];
                 $lastProject = $key != 0 ? $projects[$key-1]['slug'] : $projects[$total_projects-1]['slug'];
 
                 break;
@@ -47,11 +47,11 @@ class PortfolioController extends Controller
         return ($project) ? view('pages.portfolio.show', [
             'project'=> $project,
             'breads' => $breadcrumb,
-            'nextProject' => $nextProject,
-            'lastProject' => $lastProject
+            'next' => $nextProject,
+            'last' => $lastProject
         ]) : abort(404, 'Projeto não encontrado');
     }
-
+    
     public function edit(Portfolio $portfolio){}
     public function update(Request $request, Portfolio $portfolio){}
     public function destroy(Portfolio $portfolio){}

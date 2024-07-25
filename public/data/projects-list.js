@@ -1,5 +1,17 @@
 [
   {
+    "slug": "skoob-redesign",
+    "head": {
+      "name": "Skoob redesign",
+      "description": "Por ser uma usuária antiga do Skoob, decidi aplicar as heurísticas de Nielsen em um dos formulário da tela principal.",
+      "tags": ["UI/UX"],
+      "techs": ["Figma"]
+    },
+    "body": {
+      "mainBanner": "images/projects/2024/skoob-redesign/square.png"
+    }
+  },
+  {
     "slug": "sorla-db",
     "head": {
       "name": "Sorla DB",
