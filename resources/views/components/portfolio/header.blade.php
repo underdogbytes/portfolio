@@ -1,5 +1,5 @@
 <div class="header-box__title">
-    <h1>{{ $project['name'] }}</h1>
+    <h1>{!! __($project['name']) !!}</h1>
 
     @if(isset($project['role']))
         <p>
