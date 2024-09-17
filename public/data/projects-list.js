@@ -44,7 +44,7 @@
     "slug": "backslide",
     "head": {
       "name": "Backslide",
-      "description": "Backslide, 2024<br><br>O quadro Backslide surgiu enquanto ouvia uma música do Twenty One Pilots de mesmo nome que o quarto.<br><br><b>Ficha técnica:</b><br>15x15, guache em tela",
+      "description": "Backslide, 2024<br><br>O quadro Backslide surgiu enquanto ouvia uma música do Twenty One Pilots de mesmo nome que o quadro.<br><br><b>Ficha técnica:</b><br>15x15, guache em tela",
       "tags": ["Dark Art", "Quadro", "Guache"],
       "techs": [],
       "role": [],
