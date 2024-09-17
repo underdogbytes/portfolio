@@ -20,7 +20,7 @@
     @endif
 
     {{-- Links --}}
-    @if(isset($info['links']))
+    @if(isset($info['links']) && count($info['links']) < 0)
     <div>
         <h3>{!! __('projects.head_links') !!}</h3>
         <ul>
