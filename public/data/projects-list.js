@@ -2,10 +2,17 @@
   {
     "slug": "skoob-redesign",
     "head": {
-      "name": "Skoob redesign",
-      "description": "Por ser uma usuária antiga do Skoob, decidi aplicar as heurísticas de Nielsen em um dos formulário da tela principal.",
+      "name": "projects.skoob",
+      "description": "projects.skoob_description",
       "tags": ["UI/UX"],
-      "techs": ["Figma"]
+      "tools": ["projects.tools_figma", "projects.competitor_analysis", "projects.nielsen_heuristics", "projects.user_survey"],
+      "role": ["projects.roles_UIUX"],
+      "links": [
+        {
+          "name": "projects.tools_figma",
+          "link": "https://www.figma.com/design/BnkyYzbPyhDy1oRCJYo1nV/Skoob-Redesign?node-id=0-1&node-type=canvas&t=OghJNFIuvNyKywa6-0"
+        }
+      ]
     },
     "body": {
       "mainBanner": "images/projects/2024/skoob-redesign/square.png"
@@ -14,14 +21,21 @@
   {
     "slug": "sorla-db",
     "head": {
-      "name": "Sorla DB",
-      "description": "Projeto OpenSource de biblioteca Javascript para banco de dados temporários criados para uso em ambiente de navegador.",
+      "name": "sorladb",
+      "description": "projects.sorladb_description",
       "tags": ["Landing Page"],
-      "techs": ["Figma"],
-      "workedAs": ["Designer UI/UX"],
-      "links": {
-        "behance": "https://www.behance.net/gallery/191362951/-Website-UI-SorlaDB"
-      }
+      "tools": ["projects.tools_figma"],
+      "role": ["projects.roles_UIUX"],
+      "links": [
+        {
+          "name": "projects.tools_behance",
+          "link": "https://www.behance.net/gallery/191362951/-Website-UI-SorlaDB"
+        },
+        {
+          "name": "projects.tools_figma",
+          "link": "https://www.figma.com/design/nhI2f3iMiTrWBjnwwT8fsp/Sorla-DB?node-id=0-1&node-type=canvas&t=5pEUoVDWQDml4F4b-0"
+        }
+      ]
     },
     "body": {
       "mainBanner": "images/projects/sorla-db/main-banner.png",
@@ -31,28 +45,35 @@
   {
     "slug": "autismo-em-mulheres",
     "head": {
-      "name": "Autismo em Mulheres",
-      "description": "Conteúdo de Instagram criado para conscientização sobre autismo em mulheres utilizando as artes do jogo Don't Starve Together como ilustrações.",
+      "name": "projects.autism_women",
+      "description": "projects.autism_women_description",
       "tags": ["Social Media"],
-      "techs": ["Canva"],
-      "workedAs": ["Designer"],
-      "links": {
-        "behance": "https://www.behance.net/gallery/169279411/-social-media-post-Autismo-em-mulheres",
-        "prod": "https://www.instagram.com/p/CrhJrwYOWaQ/?img_index=1"
-      }
+      "tools": ["projects.tools_canva"],
+      "role": ["projects.roles_social_media_designer"],
+      "links": [
+        {
+          "name": "projects.tools_behance",
+          "link": "https://www.behance.net/gallery/169279411/-social-media-post-Autismo-em-mulheres"
+        },
+        {
+          "name": "Instagram",
+          "link": "https://www.instagram.com/p/CrhJrwYOWaQ/?img_index=1"
+        }
+      ]
     },
     "body": {
       "mainBanner": "images/projects/autismo-em-mulheres/main-banner.png",
       "research": {
-        "title": "01. Pesquisa",
-        "text": "Para a pesquisa os principais artigos que basearam a criação do conteúdo foram: <ul><li>autism.org.uk/advice-and-guidance/what-is-autism/autistic-women-and-girls</li><li>med.stanford.edu/news/all-news/2022/02/autism-brain-sex-differences.html</li></ul>"
+        "title": "projects.autism_women_research_title",
+        "text": "projects.autism_women_research_description"
       },
       "layout": {
-        "title": "02. Definição de Layout",
-        "text": "Com a pesquisa em mãos e uma rede social escolhida (instagram), optei por criar um carousel para comportar melhor o texto sobre mascaramento e esteriótipos; além de um último para colocar as referências."
+        "title": "projects.autism_women_layout_title",
+        "text": "projects.autism_women_layout_description"
       },
       "result": {
-        "title": "03. Projeto finalizado",
+        "title": "projects.autism_women_result_title",
+        "galleryType": "square",
         "imgs" : [
           "images/projects/autismo-em-mulheres/01.png",
           "images/projects/autismo-em-mulheres/02.png",
@@ -65,14 +86,17 @@
   {
     "slug": "mais-futuro",
     "head": {
-      "name": "Mais Futuro",
-      "description": "Trabalho desenvolvido entre agosto de 2020 à abril de 2022 na empresa Mais Futuro como Designer UI/UX e Desenvolvedora de Software.",
+      "name": "projects.mais_futuro",
+      "description": "projects.mais_futuro_description",
       "tags": ["Development", "UIUX", "Mobile", "Desktop"],
-      "techs": ["VueJS", "Figma"],
-      "workedAs": ["Developer", "Designer UI/UX"],
-      "links": {
-        "behance": "https://www.behance.net/gallery/135370153/-App-UI-Mais-Futuro-(private-pension)"
-      }
+      "tools": ["projects.tools_vuejs", "projects.tools_figma"],
+      "role": ["projects.roles_dev_fullstack", "projects.roles_UIUX"],
+      "links": [
+        {
+          "name": "projects.tools_behance",
+          "link": "https://www.behance.net/gallery/135370153/-App-UI-Mais-Futuro-(private-pension)"
+        }
+      ]
     },
     "body": {
       "mainBanner": "images/projects/mais-futuro/main-banner.png"
@@ -81,14 +105,11 @@
   {
     "slug": "escola-renovacao",
     "head": {
-      "name": "Escola Renovação",
-      "description": "Projeto desenhado e codado para escola em São José dos Pinhais",
+      "name": "projects.escola_renovacao",
+      "description": "projects.escola_renovacao_description",
       "tags": ["Landing Page"],
-      "techs": ["PHP", "Laravel", "Figma"],
-      "workedAs": ["Developer", "Designer UI/UX"],
-      "links": {
-        "prod": "https://www.escolarenovacao.com.br"
-      }
+      "tools": ["projects.tools_php", "projects.tools_laravel", "projects.tools_figma", "projects.tools_photoshop"],
+      "role": ["projects.roles_dev_fullstack", "projects.roles_UIUX"]
     }, "body": {
       "mainBanner": "images/projects/escola-renovacao/main-banner.png",
       "figmaPrototype": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FyRgX0vcpUMWpO3SXM5esfX%2Frenova%25C3%25A7%25C3%25A3o%3Fpage-id%3D0%253A1%26node-id%3D1-8%26viewport%3D447%252C367%252C0.07%26t%3DSIcllo0hIrq7BaKn-1%26scaling%3Dmin-zoom"
@@ -97,11 +118,11 @@
   {
     "slug": "pantera-motors",
     "head": {
-      "name": "Pantera Motors",
-      "description": "Redesign de e-commerce de venda e compra de carros.",
+      "name": "projects.pantera_motors",
+      "description": "projects.pantera_motors_description",
       "tags": ["E-commerce"],
-      "techs": ["Figma", "Photoshop"],
-      "workedAs": ["Designer UI/UX"]
+      "tools": ["projects.tools_figma", "projects.tools_photoshop"],
+      "role": ["projects.roles_UIUX"]
     },
     "body": {
       "mainBanner": "images/projects/pantera-motors/main-banner.png",
@@ -111,13 +132,16 @@
   {
     "slug": "fauna-do-brasil",
     "head": {
-      "name": "Fauna do Brasil",
-      "description": "E-commerce de loja de bichinhos de pelúcia.",
-      "techs": ["PHP", "OpenCart"],
-      "workedAs": ["Developer"],
-      "links": {
-        "prod": "https://faunadobrasil.com.br"
-      }
+      "name": "projects.fauna_do_brasil",
+      "description": "projects.fauna_do_brasil_description",
+      "tools": ["projects.tools_php", "projects.tools_opencart"],
+      "role": ["Developer"],
+      "links": [
+        {
+          "name": "projects.website",
+          "link": "https://faunadobrasil.com.br"
+        }
+      ]
     },
     "body": {
       "mainBanner": "images/projects/colecoes-fauna-do-brasil/main-banner.png"
@@ -126,14 +150,27 @@
   {
     "slug": "show-gospel",
     "head": {
-      "name": "Show Gospel",
-      "description": "Blog para revista de música evangélica.",
+      "name": "Blog da Revista Show Gospel",
+      "description": "Revista Show Gospel é um editorial para o público cristão evangélico brasileiro, fundado em 2000. O website (que ainda está no ar, mas com outra roupagem: <a href=\"https://showgospel.com.br\" target=\"_blank\">https://showgospel.com.br</a>) é um portal de notícias que desenvolvi em Laravel quando trabalhei na <a href=\"https://www.behance.net/publysh\" target=\"_blank\">Agência Püblysh</a>, em Curitiba.",
       "tags": ["Blog"],
-      "techs": ["PHP", "Laravel"],
-      "workedAs": ["Developer"]
+      "tools": ["projects.tools_php", "projects.tools_laravel"],
+      "role": ["Developer"]
     },
     "body": {
-      "mainBanner": "images/projects/show-gospel/main-banner.png"
+      "mainBanner": "images/projects/show-gospel/main-banner.png",
+      "result": {
+        "title": "Prints das páginas",
+        "galleryType": "",
+        "banner": "images/projects/show-gospel/main-banner.png",
+        "imgs": [
+          "images/projects/show-gospel/layout_home.png",
+          "images/projects/show-gospel/layout_edicoes.png",
+          "images/projects/show-gospel/layout_videos.png",
+          "images/projects/show-gospel/layout_sobre.png",
+          "images/projects/show-gospel/layout_posts.png",
+          "images/projects/show-gospel/layout_contato.png"
+        ]
+      }
     }
   }
 ]
