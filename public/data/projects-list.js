@@ -5,7 +5,7 @@
       "name": "projects.skoob",
       "description": "projects.skoob_description",
       "tags": ["UI/UX"],
-      "tools": ["projects.tools_figma", "projects.competitor_analysis", "projects.nielsen_heuristics", "projects.user_survey"],
+      "tools": ["projects.tools_figma", "projects.tools_competitor_analysis", "projects.tools_nielsen_heuristics", "projects.tools_user_survey"],
       "role": ["projects.roles_UIUX"],
       "links": [
         {
