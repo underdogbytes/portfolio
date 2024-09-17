@@ -13,6 +13,7 @@
     <x-portfolio.gallery-item
       link="{{ $item['type'] }}/{{ $item['slug'] }}"
       imgUrl="{{asset($item['imgUrl'])}}"
+      class="dark"
     />
     @endforeach
     @endif
