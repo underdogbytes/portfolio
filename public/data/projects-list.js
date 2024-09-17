@@ -1,5 +1,170 @@
 [
   {
+    "slug": "autismo-em-mulheres",
+    "head": {
+      "name": "projects.autism_women",
+      "description": "projects.autism_women_description",
+      "tags": ["Social Media"],
+      "tools": ["projects.tools_canva"],
+      "role": ["projects.roles_social_media_designer"],
+      "links": [
+        {
+          "name": "projects.tools_behance",
+          "link": "https://www.behance.net/gallery/169279411/-social-media-post-Autismo-em-mulheres"
+        },
+        {
+          "name": "Instagram",
+          "link": "https://www.instagram.com/p/CrhJrwYOWaQ/?img_index=1"
+        }
+      ]
+    },
+    "body": {
+      "mainBanner": "images/projects/autismo-em-mulheres/main-banner.png",
+      "research": {
+        "title": "projects.autism_women_research_title",
+        "text": "projects.autism_women_research_description"
+      },
+      "layout": {
+        "title": "projects.autism_women_layout_title",
+        "text": "projects.autism_women_layout_description"
+      },
+      "result": {
+        "title": "projects.autism_women_result_title",
+        "galleryType": "square",
+        "imgs": [
+          "images/projects/autismo-em-mulheres/01.png",
+          "images/projects/autismo-em-mulheres/02.png",
+          "images/projects/autismo-em-mulheres/03.png",
+          "images/projects/autismo-em-mulheres/04.png"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "backslide",
+    "head": {
+      "name": "Backslide",
+      "description": "Backslide, 2024<br><br>O quadro Backslide surgiu enquanto ouvia uma música do Twenty One Pilots de mesmo nome que o quarto.<br><br><b>Ficha técnica:</b><br>15x15, guache em tela",
+      "tags": ["Dark Art", "Quadro", "Guache"],
+      "techs": [],
+      "role": [],
+      "links": [
+        {
+          "name": "",
+          "link": ""
+        }
+      ]
+    },
+    "body": {
+      "figmaPrototype": "",
+      "mainBanner": "",
+      "research": {
+        "title": "",
+        "text": ""
+      },
+      "layout": {
+        "title": "",
+        "text": ""
+      },
+      "result": {
+        "title": "",
+        "galleryType": "",
+        "imgs": [
+          "images/illustrations/2024/backslide/01.webp",
+          "images/illustrations/2024/backslide/02.webp",
+          "images/illustrations/2024/backslide/03.webp"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "breath-of-time",
+    "head": {
+      "name": "Breath of Time",
+      "description": "Breath of Time, 2024<br><br>Através dos 4 elementos na moldura, a luz no topo irradiando a personagem representando o começo e os fungos na base sendo o fim, a ilustração Breath of Time trás a superfície a simplicidade e efemeridade da vida.<br><br>A obra foi inspirada em uma música do Gojira chamada Born in Winter. 🐋<br><br><b>Ficha técnica:</b><br>A5, caneta ponta fina",
+      "tags": ["Dark Art", "Fine Line"],
+      "techs": [],
+      "role": [],
+      "links": [
+        {
+          "name": "",
+          "link": ""
+        }
+      ]
+    },
+    "body": {
+      "figmaPrototype": "",
+      "mainBanner": "",
+      "research": {
+        "title": "",
+        "text": ""
+      },
+      "layout": {
+        "title": "",
+        "text": ""
+      },
+      "result": {
+        "title": "",
+        "galleryType": "",
+        "imgs": [
+          "images/illustrations/2024/breath-of-time/01.jpg",
+          "images/illustrations/2024/breath-of-time/02.jpg",
+          "images/illustrations/2024/breath-of-time/03.jpg"
+        ]
+      }
+    }
+  },
+  {
+    "slug": "escola-renovacao",
+    "head": {
+      "name": "projects.escola_renovacao",
+      "description": "projects.escola_renovacao_description",
+      "tags": ["Landing Page"],
+      "tools": ["projects.tools_php", "projects.tools_laravel", "projects.tools_figma", "projects.tools_photoshop"],
+      "role": ["projects.roles_dev_fullstack", "projects.roles_UIUX"]
+    }, "body": {
+      "mainBanner": "images/projects/escola-renovacao/main-banner.png",
+      "figmaPrototype": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FyRgX0vcpUMWpO3SXM5esfX%2Frenova%25C3%25A7%25C3%25A3o%3Fpage-id%3D0%253A1%26node-id%3D1-8%26viewport%3D447%252C367%252C0.07%26t%3DSIcllo0hIrq7BaKn-1%26scaling%3Dmin-zoom"
+    }
+  },
+  {
+    "slug": "fauna-do-brasil",
+    "head": {
+      "name": "projects.fauna_do_brasil",
+      "description": "projects.fauna_do_brasil_description",
+      "tools": ["projects.tools_php", "projects.tools_opencart"],
+      "role": ["Developer"],
+      "links": [
+        {
+          "name": "projects.website",
+          "link": "https://faunadobrasil.com.br"
+        }
+      ]
+    },
+    "body": {
+      "mainBanner": "images/projects/colecoes-fauna-do-brasil/main-banner.png"
+    }
+  },
+  {
+    "slug": "mais-futuro",
+    "head": {
+      "name": "projects.mais_futuro",
+      "description": "projects.mais_futuro_description",
+      "tags": ["Development", "UIUX", "Mobile", "Desktop"],
+      "tools": ["projects.tools_vuejs", "projects.tools_figma"],
+      "role": ["projects.roles_dev_fullstack", "projects.roles_UIUX"],
+      "links": [
+        {
+          "name": "projects.tools_behance",
+          "link": "https://www.behance.net/gallery/135370153/-App-UI-Mais-Futuro-(private-pension)"
+        }
+      ]
+    },
+    "body": {
+      "mainBanner": "images/projects/mais-futuro/main-banner.png"
+    }
+  },
+  {
     "slug": "skoob-redesign",
     "head": {
       "name": "projects.skoob",
@@ -43,79 +208,6 @@
     }
   },
   {
-    "slug": "autismo-em-mulheres",
-    "head": {
-      "name": "projects.autism_women",
-      "description": "projects.autism_women_description",
-      "tags": ["Social Media"],
-      "tools": ["projects.tools_canva"],
-      "role": ["projects.roles_social_media_designer"],
-      "links": [
-        {
-          "name": "projects.tools_behance",
-          "link": "https://www.behance.net/gallery/169279411/-social-media-post-Autismo-em-mulheres"
-        },
-        {
-          "name": "Instagram",
-          "link": "https://www.instagram.com/p/CrhJrwYOWaQ/?img_index=1"
-        }
-      ]
-    },
-    "body": {
-      "mainBanner": "images/projects/autismo-em-mulheres/main-banner.png",
-      "research": {
-        "title": "projects.autism_women_research_title",
-        "text": "projects.autism_women_research_description"
-      },
-      "layout": {
-        "title": "projects.autism_women_layout_title",
-        "text": "projects.autism_women_layout_description"
-      },
-      "result": {
-        "title": "projects.autism_women_result_title",
-        "galleryType": "square",
-        "imgs" : [
-          "images/projects/autismo-em-mulheres/01.png",
-          "images/projects/autismo-em-mulheres/02.png",
-          "images/projects/autismo-em-mulheres/03.png",
-          "images/projects/autismo-em-mulheres/04.png"
-        ]
-      }
-    }
-  },
-  {
-    "slug": "mais-futuro",
-    "head": {
-      "name": "projects.mais_futuro",
-      "description": "projects.mais_futuro_description",
-      "tags": ["Development", "UIUX", "Mobile", "Desktop"],
-      "tools": ["projects.tools_vuejs", "projects.tools_figma"],
-      "role": ["projects.roles_dev_fullstack", "projects.roles_UIUX"],
-      "links": [
-        {
-          "name": "projects.tools_behance",
-          "link": "https://www.behance.net/gallery/135370153/-App-UI-Mais-Futuro-(private-pension)"
-        }
-      ]
-    },
-    "body": {
-      "mainBanner": "images/projects/mais-futuro/main-banner.png"
-    }
-  },
-  {
-    "slug": "escola-renovacao",
-    "head": {
-      "name": "projects.escola_renovacao",
-      "description": "projects.escola_renovacao_description",
-      "tags": ["Landing Page"],
-      "tools": ["projects.tools_php", "projects.tools_laravel", "projects.tools_figma", "projects.tools_photoshop"],
-      "role": ["projects.roles_dev_fullstack", "projects.roles_UIUX"]
-    }, "body": {
-      "mainBanner": "images/projects/escola-renovacao/main-banner.png",
-      "figmaPrototype": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FyRgX0vcpUMWpO3SXM5esfX%2Frenova%25C3%25A7%25C3%25A3o%3Fpage-id%3D0%253A1%26node-id%3D1-8%26viewport%3D447%252C367%252C0.07%26t%3DSIcllo0hIrq7BaKn-1%26scaling%3Dmin-zoom"
-    }
-  },
-  {
     "slug": "pantera-motors",
     "head": {
       "name": "projects.pantera_motors",
@@ -127,24 +219,6 @@
     "body": {
       "mainBanner": "images/projects/pantera-motors/main-banner.png",
       "figmaPrototype": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FFumDsmc9b0Yh7hJ7iWXXm2%2FRecife-Carros---Pantera-Motors%3Fpage-id%3D9%253A4%26node-id%3D10-9%26viewport%3D701%252C266%252C0.07%26t%3DGzU7i98L8dFpUamh-1%26scaling%3Dscale-down%26starting-point-node-id%3D10%253A9"
-    }
-  },
-  {
-    "slug": "fauna-do-brasil",
-    "head": {
-      "name": "projects.fauna_do_brasil",
-      "description": "projects.fauna_do_brasil_description",
-      "tools": ["projects.tools_php", "projects.tools_opencart"],
-      "role": ["Developer"],
-      "links": [
-        {
-          "name": "projects.website",
-          "link": "https://faunadobrasil.com.br"
-        }
-      ]
-    },
-    "body": {
-      "mainBanner": "images/projects/colecoes-fauna-do-brasil/main-banner.png"
     }
   },
   {

@@ -27,6 +27,7 @@
       },
       "result": {
         "title": "",
+        "galleryType": "",
         "imgs": []
       }
     }
