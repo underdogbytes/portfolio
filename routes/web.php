@@ -18,8 +18,3 @@ Route::controller(PortfolioController::class)->group(function(){
     Route::get('portfolio', 'index')->name('portfolio.index');
     Route::get('projects/{slug}', 'show')->name('portfolio.show');
 });
-
-Route::controller(ArtsController::class)->group(function(){
-    Route::get('arts', 'index')->name('arts.index');
-    Route::get('arts/{slug}', 'show')->name('arts.show');
-});

@@ -11,7 +11,7 @@
     @if($projects)
     @foreach($projects as $item)
     <x-portfolio.gallery-item
-      link="{{ $item['type'] }}/{{ $item['slug'] }}"
+      link="projects/{{ $item['slug'] }}"
       imgUrl="{{asset($item['imgUrl'])}}"
       class="dark"
     />
