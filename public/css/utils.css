@@ -49,8 +49,16 @@ ul li {
   margin: auto;
 }
 
+.m-2 {
+  margin: 2rem;
+}
+
 .my-2 {
   margin: 2rem 0;
+}
+
+.mt-1 {
+  margin-top: 1rem;
 }
 
 .mt-10 {
