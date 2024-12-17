@@ -36,7 +36,7 @@ button:hover {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: clamp(1rem, 3.5vh, 5em);
 }
 
 ul li {

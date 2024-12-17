@@ -42,17 +42,15 @@
 
 /* variations  */
 .hero--home__content {
-  width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  padding: 10rem 2rem 2rem 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(2rem, 1fr));
+  padding: 10rem 0 0 0;
 }
 
 .hero--home__content > * {
-  width: fit-content;
-  height: fit-content;
   margin: auto;
 }
+
 .hero--home__content > img {
   max-width: 100%;
   max-width: -webkit-fill-available;
@@ -69,18 +67,43 @@
   margin-top: 2rem;
 }
 
+.container--buttons {
+  display: block;
+  margin: 4rem 0 0 0;
+}
+
+.container--buttons button {
+  width: 100%;
+}
+
+.container--buttons a:first-child button {
+  margin: 0 0 1rem 0;
+}
 
 @media screen and (min-width: 1000px) {
   .hero {
     height: 70vh;
   }
+
   .hero--home {
     min-height: auto;
     height: auto;
   }
+
   .hero--home__content {
-    max-width: var(--app-max-width);
-    padding: 5rem 2rem 0 2rem;
+    padding: 5rem 0 0 0;
     margin: auto;
+  }
+
+  .container--buttons {
+    display: flex;
+  }
+
+  .container--buttons  button {
+    width: fit-content;
+  }
+
+  .container--buttons a:first-child button {
+    margin: 0 1rem 0 0;
   }
 }

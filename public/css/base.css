@@ -8,12 +8,19 @@
   --font-family: 'Montserrat', sans-serif;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   /* 🏗️ Foundation */
   width: 100%;
   height: 100vh;
   padding: 0;
   margin: 0;
+  overflow-x: hidden;
 
   /* 🎨 Style */
   background: var(--body-bg);
@@ -33,4 +40,9 @@ body {
 ::selection {
   color: darkred;
   background-color: #ff8686a7;
+}
+
+.inner {
+  max-width: var(--app-max-width);
+  margin: auto;
 }
