@@ -1,3 +1,8 @@
+# Data: 08/01/2025 | Pacote v1.03
+Tipo | Tarefa/Local | Descrição |
+| --- | --- | --- |
+| Refactor | Geral | Alteração nomeclatura (portfólio para projetos) em views, controllers e rotas |
+
 # Data: 07/01/2025 | Pacote v1.02
 Tipo | Tarefa/Local | Descrição |
 | --- | --- | --- |
