@@ -11,6 +11,10 @@ body {
   font-size: 14px;
 }
 
+section {
+  padding: var(--app-padding);
+}
+
 button {
   padding: 0.5rem 2rem;
 
@@ -81,4 +85,16 @@ ul {
 .ghost {
   height: 6rem;
   width: 100%;
+}
+
+.two-columns--only-desktop {
+  display: block;
+}
+
+@media screen and (min-width: 900px) {
+  .two-columns--only-desktop {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 5%;
+  }
 }
