@@ -7,7 +7,7 @@
 
     <div class="portfolio__gallery" style="margin-top: 1rem; gap: 0">
         @foreach ($result['imgs'] as $img)
-        <x-portfolio.gallery-item imgUrl="{{asset($img)}}" class="{{$result['galleryType']}}" />
+        <x-projects.gallery-item imgUrl="{{asset($img)}}" class="{{$result['galleryType']}}" />
         @endforeach
     </div>
 </div>

@@ -22,7 +22,7 @@
                 </a>
             </div>
 
-            <a href="/portfolio">
+            <a href="/projetos">
                 <button class="hero__btn">Conheça meu trabalho</button>
             </a>
         </div>

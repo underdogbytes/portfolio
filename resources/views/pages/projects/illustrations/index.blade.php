@@ -11,8 +11,8 @@
   <div class="portfolio__gallery">
     @if($arts)
     @foreach($arts as $item)
-      <x-portfolio.gallery-item
-        link="{{ route('portfolio.arts.show', ['slug' => $item['name']]) }}"
+      <x-projects.gallery-item
+        link="{{ route('projects.arts.show', ['slug' => $item['name']]) }}"
         imgUrl="{{asset($item['imgUrl'])}}"
       />
     @endforeach

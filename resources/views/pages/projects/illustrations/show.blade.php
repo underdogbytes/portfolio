@@ -16,13 +16,13 @@
 
   <div class="portfolio__gallery">
     @foreach($item['imgs'] as $img)
-      <x-portfolio.gallery-item
+      <x-projects.gallery-item
         imgUrl="{{asset($img)}}"
         class="portfolio__gallery__image--square"
       />
     @endforeach
   </div>
 
-  <x-portfolio.arrows next="{{ $next }}" last="{{ $last }}" />
+  <x-projects.arrows next="{{ $next }}" last="{{ $last }}" />
 </section>
 @endsection

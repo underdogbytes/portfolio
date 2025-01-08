@@ -14,9 +14,9 @@
       </p>
 
       <div class="container--buttons">
-        <a href="/portfolio">
+        <a href="/projetos">
           <button>
-            Ver portfólio
+            Veja meus projetos
           </button>
         </a>
         

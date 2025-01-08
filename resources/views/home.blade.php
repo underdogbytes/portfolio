@@ -4,5 +4,5 @@
 
 <x-home.hero />
 <x-home.about />
-<x-portfolio.highlights :highlights="$highlights" />
+<x-projects.highlights :highlights="$highlights" />
 @endsection

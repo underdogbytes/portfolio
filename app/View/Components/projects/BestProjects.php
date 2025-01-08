@@ -1,6 +1,6 @@
 <?php
 
-namespace App\View\Components\portfolio;
+namespace App\View\Components\Projects;
 
 use Illuminate\Contracts\View\View;
 use Illuminate\Support\Facades\File;
@@ -17,6 +17,6 @@ class BestProjects extends Component
 
     public function render(): View|string
     {
-        return view('components.portfolio.best-projects', ['projects' => $this->projects]);
+        return view('components.projects.best-projects', ['projects' => $this->projects]);
     }
 }

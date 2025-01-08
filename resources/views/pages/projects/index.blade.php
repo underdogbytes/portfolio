@@ -10,7 +10,7 @@
   <div class="portfolio__gallery">
     @if($projects)
     @foreach($projects as $item)
-    <x-portfolio.gallery-item
+    <x-projects.gallery-item
       link="projects/{{ $item['slug'] }}"
       imgUrl="{{asset($item['imgUrl'])}}"
       class="dark"

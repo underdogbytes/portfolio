@@ -8,8 +8,8 @@
         @if(!empty($projects))
         @foreach($projects as $item)
         <div>
-            <x-portfolio.gallery-item
-                link="{{ route('portfolio.show', ['slug' => $item['link']]) }}"
+            <x-projects.gallery-item
+                link="{{ route('projects.show', ['slug' => $item['link']]) }}"
                 imgUrl="{{ asset($item['imgUrl']) }}"
             />
             <p>
@@ -23,7 +23,7 @@
     </div>
 
     <div style="width: 100%; display: flex; justify-content: center; margin: 4rem auto">
-        <a href="/portfolio">
+        <a href="/projetos">
             <button>Ver todos os projetos</button>
         </a>
     </div>

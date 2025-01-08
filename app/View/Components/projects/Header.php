@@ -1,6 +1,6 @@
 <?php
 
-namespace App\View\Components\portfolio;
+namespace App\View\Components\Projects;
 
 use Closure;
 use Illuminate\Contracts\View\View;
@@ -15,6 +15,6 @@ class Header extends Component
 
     public function render(): View|Closure|string
     {
-        return view('components.portfolio.header');
+        return view('components.projects.header');
     }
 }

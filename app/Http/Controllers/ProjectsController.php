@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Portfolio;
 use Illuminate\Http\Request;
 
-class PortfolioController extends Controller
+class ProjectsController extends Controller
 {
     public function index(){
 
@@ -13,7 +13,7 @@ class PortfolioController extends Controller
         $cleanedContent = preg_replace('/[\x00-\x1F\x7F]/', '', $projectsJson);
         $projects = json_decode($projectsJson, true);
 
-        return view('pages.portfolio.index', ['projects'=> $projects]);
+        return view('pages.projects.index', ['projects'=> $projects]);
     }
 
     public function create(){}
@@ -33,7 +33,7 @@ class PortfolioController extends Controller
 
                 $breadcrumb = [
                     ['name' => 'Home', 'url' => '/'],
-                    ['name' => 'Portfolio', 'url' => '/portfolio'],
+                    ['name' => 'Portfolio', 'url' => '/projetos'],
                     ['name' => $project['head']['name'], 'url' => $project['slug']],
                 ];
 
@@ -44,7 +44,7 @@ class PortfolioController extends Controller
             }
         }
 
-        return ($project) ? view('pages.portfolio.show', [
+        return ($project) ? view('pages.projects.show', [
             'project'=> $project,
             'breads' => $breadcrumb,
             'next' => $nextProject,
