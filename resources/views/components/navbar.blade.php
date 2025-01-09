@@ -14,21 +14,22 @@
             <a href="{{ url('/sobre') }}">{!! __('navbar.about') !!}</a>
             <a href="{{ url('/projetos') }}">{!! __('navbar.projects') !!}</a>
             <a href="{{ url('/contato') }}">{!! __('navbar.contact') !!}</a>
-            <a href="{{ url('https://www.linkedin.com/in/btrz/') }}" target="_blank">
-                <div class="navbar__icon navbar__icon--linkedin"></div>
-            </a>
-            <a href="{{ url('https://www.behance.net/bridgetocross') }}" target="_blank">
-                <div class="navbar__icon navbar__icon--behance"></div>
-            </a>
-            <a href="{{ url('https://patreon.com/btrz') }}" target="_blank">
-                <div class="navbar__icon navbar__icon--patreon"></div>
-            </a>
-            <a href="{{ url('https://github.com/underdogbytes') }}" target="_blank">
-                <div class="navbar__icon navbar__icon--github"></div>
-            </a>
-            <a href="{{ url('https://www.instagram.com/bridgetocross') }}" target="_blank">
-                <div class="navbar__icon navbar__icon--instagram"></div>
-            </a>
+
+            <!-- social media icons -->
+            <x-icons.social-media href="{{ url('https://www.linkedin.com/in/btrz/') }}" target="_blank"
+                aria-label="{!! __('navbar.instagram_aria_label') !!}" class="icon--linkedin-black" />
+
+            <x-icons.social-media href="{{ url('https://www.behance.net/bridgetocross') }}" target="_blank"
+                aria-label="{!! __('navbar.behance_aria_label') !!}" class="icon--behance-black" />
+
+            <x-icons.social-media href="{{ url('https://patreon.com/btrz') }}" target="_blank"
+                aria-label="{!! __('navbar.patreon_aria_label') !!}" class="icon--patreon-black" />
+
+            <x-icons.social-media href="{{ url('https://github.com/underdogbytes') }}" target="_blank"
+                aria-label="{!! __('navbar.github_aria_label') !!}" class="icon--github-black" />
+
+            <x-icons.social-media href="{{ url('https://www.instagram.com/bridgetocross') }}" target="_blank"
+                aria-label="{!! __('navbar.instagram_aria_label') !!}" class="icon--instagram-black" />
         </div>
     </section>
 </nav>
