@@ -5,6 +5,7 @@
 | Refactor | Navbar | Todos os textos em lang |
 | Acessibilidade | Navbar | Texto alternativo para mascote |
 | Refactor | Componentes | Componentização de ícones |
+| Melhoria UX | Navbar | Colocar link para home ao clicar no cachorro |
 
 # Data: 08/01/2025 | Pacote v1.03
 | Tipo | Tarefa/Local | Descrição |

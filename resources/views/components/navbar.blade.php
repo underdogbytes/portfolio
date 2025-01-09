@@ -1,11 +1,8 @@
 <nav role="navigation" aria-label="{!! __('navbar.role_arial_label') !!}">
     <section>
         <div class="nav__logo__box">
-            <a href="#">
-                <img
-                    src="{{asset('images/logo/underdogbytes.svg')}}"
-                    alt="{!! __('navbar.logo_alt') !!}"
-                />
+            <a href="/">
+                <img src="{{asset('images/logo/underdogbytes.svg')}}" alt="{!! __('navbar.logo_alt') !!}" />
             </a>
             <span>{!! __('navbar.logo_msg') !!}</span>
         </div>
