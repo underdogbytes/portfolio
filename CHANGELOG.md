@@ -1,3 +1,8 @@
+# Data: 09/01/2025 | Pacote v1.04
+| Tipo | Tarefa/Local | Descrição |
+| --- | --- | --- |
+| Refactor | Portfolio | Remoção código antigo e respectivas referências |
+
 # Data: 08/01/2025 | Pacote v1.03
 | Tipo | Tarefa/Local | Descrição |
 | --- | --- | --- |
