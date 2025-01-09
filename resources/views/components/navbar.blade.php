@@ -1,16 +1,19 @@
-<nav>
+<nav role="navigation" aria-label="{!! __('navbar.role_arial_label') !!}">
     <section>
         <div class="nav__logo__box">
             <a href="#">
-                <img src="{{asset('images/logo/underdogbytes.svg')}}" alt="">
+                <img
+                    src="{{asset('images/logo/underdogbytes.svg')}}"
+                    alt="{!! __('navbar.logo_alt') !!}"
+                />
             </a>
-            <span>Olá amigos!</span>
+            <span>{!! __('navbar.logo_msg') !!}</span>
         </div>
         <div class="nav__links__box">
-            <a href="{{ url('/') }}">Home</a>
-            <a href="{{ url('/sobre') }}">Sobre</a>
-            <a href="{{ url('/projetos') }}">Projetos</a>
-            <a href="{{ url('/contato') }}">Contato</a>
+            <a href="{{ url('/') }}">{!! __('navbar.home') !!}</a>
+            <a href="{{ url('/sobre') }}">{!! __('navbar.about') !!}</a>
+            <a href="{{ url('/projetos') }}">{!! __('navbar.projects') !!}</a>
+            <a href="{{ url('/contato') }}">{!! __('navbar.contact') !!}</a>
             <a href="{{ url('https://www.linkedin.com/in/btrz/') }}" target="_blank">
                 <div class="navbar__icon navbar__icon--linkedin"></div>
             </a>

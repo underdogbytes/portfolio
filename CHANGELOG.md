@@ -2,6 +2,8 @@
 | Tipo | Tarefa/Local | Descrição |
 | --- | --- | --- |
 | Refactor | Portfolio | Remoção código antigo e respectivas referências |
+| Refactor | Navbar | Todos os textos em lang |
+| Acessibilidade | Navbar | Texto alternativo para mascote |
 
 # Data: 08/01/2025 | Pacote v1.03
 | Tipo | Tarefa/Local | Descrição |
