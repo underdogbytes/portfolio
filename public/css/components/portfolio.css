@@ -1,7 +1,3 @@
-.portfolio--highlights {
-  padding: var(--app-padding);
-}
-
 .portfolio--highlights__container-buttons {
   width: 100%;
   display: flex;
