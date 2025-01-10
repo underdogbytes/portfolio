@@ -1,12 +1,77 @@
 /* Footer  */
-/* 🏗️ Foundation */
-footer {
-  margin-top: 5rem;
-}
-
 footer > div {
   max-width: var(--app-max-width);
   display: grid;
   place-items: center;
   margin: auto;
+}
+
+.footer__row {
+  display: block;
+  width: 100%;
+}
+
+.footer__row:nth(2) {
+  float: right;
+}
+
+.footer__info {
+  display: block;
+  margin: 0 auto 2rem auto;
+}
+
+.footer__info > div {
+  width: 100%;
+  max-width: 300px;
+  margin: auto;
+}
+
+.footer__title {
+  font-family: var(--baskervville);
+}
+
+.footer__social-media__icons {
+  display: flex;
+}
+
+.footer__social-media__icons a:not(:last-child) {
+  margin: 0 1rem 0 0;
+}
+
+.footer__img__container {
+  margin: auto;
+  width: fit-content;
+}
+
+.footer__img {
+  width: 100%;
+  max-width: 300px;
+}
+
+@media screen and (min-width: 900px) {
+  .footer__row {
+    display: flex;
+  }
+
+  .footer__img__container {
+    margin: 0;
+  }
+
+  .footer__info {
+    display: flex;
+    margin: 0 0 0 auto;
+  }
+
+  .footer__info > div {
+    max-width: max-content;
+    margin: auto;
+  }
+
+  .footer__info > div {
+    max-width: 600px;
+  }
+  
+  .footer__info > div:not(:last-child) {
+    margin: 0 3rem 0 0;
+  }
 }
