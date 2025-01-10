@@ -1,3 +1,9 @@
+# Data: 10/01/2025 | Pacote v1.05
+| Tipo | Tarefa/Local | Descrição |
+| --- | --- | --- |
+| Feat | Footer | Inserção novo conteúdo |
+| Melhoria | Geral | Pequenos ajustes e refactor CSS |
+
 # Data: 09/01/2025 | Pacote v1.04
 | Tipo | Tarefa/Local | Descrição |
 | --- | --- | --- |
