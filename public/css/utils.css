@@ -1,46 +1,7 @@
-:root {
-  --app-max-width: 1200px;
-  --app-padding: 2rem;
-}
-
-html,
-body {
-  margin: 0;
-  padding: 0;
-
-  font-size: 14px;
-}
-
-section {
-  padding: var(--app-padding);
-}
-
-button {
-  padding: 0.5rem 2rem;
-
-  border-radius: 4px;
-  border: none;
-
-  background-color: #000000;
-
-  font-weight: 600;
-  color: #ffffff;
-
-  cursor: pointer;
-}
-
-button:hover {
-  opacity: 0.7;
-}
-
 .btn__icon-text {
   display: flex;
   align-items: center;
   gap: 1rem;
-}
-
-h1 {
-  font-size: clamp(1rem, 3.5vh, 5em);
 }
 
 /* START: icons */

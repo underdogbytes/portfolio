@@ -1,0 +1,22 @@
+:root {
+  /* Fonts */
+  --baskerville: "Baskervville", serif;
+  --montserrat: "Montserrat", sans-serif;
+
+  /* App limits */
+  --desktop: 1200px;
+  --tablet: 900px;
+  --mobile: 900px;
+  --app-max-width: 1200px;
+  --app-padding: 2rem;
+
+  /* Text config*/
+  --font-weight--hover: 800;
+  --font-color: #212121;
+  --font-size: 14px;
+  --font-family: 'Montserrat', sans-serif;
+  --link-color--hover: #d60606;
+
+  /* Body */
+  --body-bg: #f5f5f5;
+}
