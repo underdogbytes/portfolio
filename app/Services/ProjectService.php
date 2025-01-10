@@ -6,11 +6,20 @@ use Illuminate\Support\Facades\File;
 
 class ProjectService
 {
-    public function loadProjects($filePath)
+    public function loadProjects(string $filePath): array
     {
+        // Garantindo que o diretório é seguro:
+        $filePath = 'data/'.basename($filePath);
+        $fullPath = public_path($filePath);
+
+        if (!File::exists($fullPath)) {
+            \Log::error("404 - Arquivo não encontrado: $filePath");
+            return [];
+        }
+
         try {
             // Tente ler o arquivo JSON
-            $projectsJson = File::get(public_path($filePath));
+            $projectsJson = File::get($fullPath);
             
             // Decodificação do JSON
             $cleanedContent = preg_replace('/[\x00-\x1F\x7F]/', '', $projectsJson);
@@ -26,5 +35,11 @@ class ProjectService
             \Log::error('Erro ao ler o arquivo JSON: ' . $e->getMessage());
             return [];
         }
+    }
+
+    function getXProjects(string $filePath, int $quantity): array
+    {
+        $projects = $this->loadProjects($filePath);
+        return array_slice($projects, 0, $quantity);
     }
 }
