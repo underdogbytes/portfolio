@@ -1,10 +1,11 @@
 # Data: 09/01/2025 | Pacote v1.04
 | Tipo | Tarefa/Local | Descrição |
 | --- | --- | --- |
+| Acessibilidade | Navbar | Texto alternativo para mascote |
 | Refactor | Portfolio | Remoção código antigo e respectivas referências |
 | Refactor | Navbar | Todos os textos em lang |
-| Acessibilidade | Navbar | Texto alternativo para mascote |
 | Refactor | Componentes | Componentização de ícones |
+! Refactor | Galeria de destaques | Segurança melhorada, lang aplicado |
 | Melhoria UX | Navbar | Colocar link para home ao clicar no cachorro |
 
 # Data: 08/01/2025 | Pacote v1.03
