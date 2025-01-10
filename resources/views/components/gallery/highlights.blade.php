@@ -1,11 +1,9 @@
 <section class="portfolio--highlights">
     <div class="inner">
-        <div class="header-box">
-            <div class="header-box__title">
-                <h1>{!! __($title) !!}</h1>
-                <p>{!! __($subtitle) !!}</p>
-            </div>
-        </div>
+        <x-titles.big-underlined
+            title="{!! __($title) !!}"
+            description="{!! __($subtitle) !!}"
+        />
         
         <div class="grid--type-projects">
             @if(!empty($highlights))

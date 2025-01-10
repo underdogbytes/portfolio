@@ -2,14 +2,15 @@
 
 @section('content')
 <div class="ghost"></div>
-<section class="header-box">
-  <div class="header-box__title">
-    <h1>Contato</h1>
-  </div>
-
-  <div>
-    <p>Para trabalho ou dizer um oi, me manda um e-mail:</p>
-    <a href="mailto:underdogbytes@gmail.com">📧 underdogbytes@gmail.com</a>
+<section>
+  <div class="inner">
+    <x-titles.big-underlined
+      title="{!! __('contact.title') !!}"
+    />
+    <div>
+      <p>Para trabalho ou dizer um oi, me manda um e-mail:</p>
+      <a href="mailto:underdogbytes@gmail.com">📧 underdogbytes@gmail.com</a>
+    </div>
   </div>
 </section>
 @endsection

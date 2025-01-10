@@ -12,6 +12,7 @@ return [
     */
 
     // Head
+    'title' => 'Projetos',
     'head_description' => 'Descrição',
     'head_links' => 'Links',
     'head_tools_used' => 'Ferramentas utilizadas no projeto',
