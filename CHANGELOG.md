@@ -5,6 +5,7 @@
 | Refactor | Portfolio | Remoção código antigo e respectivas referências |
 | Refactor | Navbar | Todos os textos em lang |
 | Refactor | Componentes | Componentização de ícones |
+! Refactor | Componentes | Componentização de cabeçalho |
 ! Refactor | Galeria de destaques | Segurança melhorada, lang aplicado |
 | Melhoria UX | Navbar | Colocar link para home ao clicar no cachorro |
 
