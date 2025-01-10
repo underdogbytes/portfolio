@@ -2,6 +2,7 @@
 | Tipo | Tarefa/Local | Descrição |
 | --- | --- | --- |
 | Acessibilidade | Navbar | Texto alternativo para mascote |
+| Bug | Rotas | Arrumar a rota de projects para projetos |
 | Refactor | Portfolio | Remoção código antigo e respectivas referências |
 | Refactor | Navbar | Todos os textos em lang |
 | Refactor | Componentes | Componentização de ícones |

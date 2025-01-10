@@ -20,4 +20,3 @@ Tarefas no radar para próximos pacotes.
 | Portfolio | Fazer um filtro por tipo, atuação e ano |
 | Portfolios json | Reestruturar jsons de projetos |
 | Portfolios json | Reformular json com base no novo layout |
-| Rotas | Bug: Arrumar a rota de projects para projetos |
