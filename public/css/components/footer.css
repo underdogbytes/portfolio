@@ -72,6 +72,6 @@ footer > div {
   }
   
   .footer__info > div:not(:last-child) {
-    margin: 0 3rem 0 0;
+    margin: auto 3rem auto 0;
   }
 }
