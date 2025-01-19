@@ -1,3 +1,11 @@
+# Data: 19/01/2025 | Pacote v1.06
+| Tipo | Tarefa/Local | Descrição |
+| --- | --- | --- |
+| Fix | Footer | Correção alinhamento conteúdo |
+| Feat | Página Sobre | Adição conteúdo |
+| Feat | Componente | Certificados com filtro |
+| Feat | Home | Aplicação componente novo de certificados |
+
 # Data: 10/01/2025 | Pacote v1.05
 | Tipo | Tarefa/Local | Descrição |
 | --- | --- | --- |

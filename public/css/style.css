@@ -87,11 +87,15 @@ h1 {
   font-size: clamp(1rem, 3.5vh, 5em);
 }
 
+img {
+  width: 100%;
+  max-width: 100%;
+}
+
 /* Links */
 a {
-  text-decoration: none;
   font-weight: inherit;
-  color: inherit;
+  color: var(--link-color--hover);
   transition: font-weight 0.3s ease;
 }
 

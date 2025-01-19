@@ -1,3 +1,12 @@
+/* Default */
+.gallery {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 400px));
+  margin: 2rem 0;
+}
+
+/* Variações */
 .portfolio__gallery {
   display: grid;
   gap: 1rem;

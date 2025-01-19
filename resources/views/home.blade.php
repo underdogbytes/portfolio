@@ -9,4 +9,6 @@
     btn="gallery-highlights.home_btn"
     :highlights="$highlights"
   />
+
+  <x-certificados />
 @endsection
